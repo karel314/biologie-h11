@@ -1,0 +1,1382 @@
+{
+  "vak": "Biologie",
+  "hoofdstuk": "11 - Seksualiteit",
+  "scope": "Les 1 en 2",
+  "totaal_vragen": 100,
+  "leerdoelen": [
+    {
+      "leerdoel_id": 1,
+      "leerdoel_titel": "Puberteit en geslachtskenmerken",
+      "paragraaf": "Les 1",
+      "uitleg_tekst": "Tijdens de puberteit verandert je lichaam onder invloed van hormonen. Je hebt primaire geslachtskenmerken (aanwezig vanaf de geboorte) en secundaire geslachtskenmerken (ontwikkelen tijdens de puberteit). Bij mannen speelt testosteron de hoofdrol, bij vrouwen oestrogeen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "1.1",
+          "subdoel_titel": "Primaire en secundaire geslachtskenmerken",
+          "uitleg_tekst": "Primaire geslachtskenmerken zijn aanwezig vanaf de geboorte (bijv. penis, vagina). Secundaire geslachtskenmerken ontwikkelen zich tijdens de puberteit onder invloed van hormonen.",
+          "vragen": [
+            {
+              "id": 1,
+              "type": "multiple_choice",
+              "vraag": "Wat zijn primaire geslachtskenmerken?",
+              "opties": [
+                "Kenmerken die ontstaan door hormonen tijdens de puberteit, zoals lichaamsbeharing",
+                "Kenmerken die aanwezig zijn vanaf de geboorte",
+                "Kenmerken die alleen bij mannen voorkomen en niet bij vrouwen",
+                "Kenmerken die zich pas ontwikkelen na de puberteit door invloed van de omgeving"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Primaire geslachtskenmerken zijn al aanwezig vanaf de geboorte, zoals de penis bij jongens en de vagina bij meisjes. Ze worden bepaald door de geslachtschromosomen (XX of XY). Secundaire geslachtskenmerken ontwikkelen zich pas tijdens de puberteit."
+            },
+            {
+              "id": 2,
+              "type": "multiple_choice",
+              "vraag": "Een jongen krijgt tijdens de puberteit een zwaardere stem. Is dit een primair of secundair geslachtskenmerk?",
+              "opties": [
+                "Primair, want het hoort bij het mannelijk geslacht en is typisch voor jongens",
+                "Secundair, want het ontwikkelt zich tijdens de puberteit",
+                "Primair, want alleen jongens krijgen een zwaardere stem en meisjes niet",
+                "Secundair, want het wordt veroorzaakt door oestrogeen uit de eierstokken"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Een zwaardere stem is een secundair geslachtskenmerk: het is niet aanwezig bij de geboorte maar ontwikkelt zich tijdens de puberteit onder invloed van het hormoon testosteron. Dat iets 'typisch mannelijk' is, maakt het nog geen primair kenmerk."
+            },
+            {
+              "id": 3,
+              "type": "invullen",
+              "vraag": "Geslachtskenmerken die zich pas tijdens de puberteit ontwikkelen onder invloed van hormonen noemen we ... geslachtskenmerken.",
+              "juiste_antwoord": "secundaire",
+              "uitleg": "Secundaire geslachtskenmerken ontwikkelen zich tijdens de puberteit onder invloed van hormonen (testosteron bij mannen, oestrogeen bij vrouwen). Primaire geslachtskenmerken zijn er al vanaf de geboorte."
+            },
+            {
+              "id": 4,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende zijn secundaire geslachtskenmerken bij de vrouw?",
+              "opties": [
+                "Eierstokken",
+                "Borstontwikkeling",
+                "Vagina",
+                "Toename van vetweefsel op de heupen",
+                "Menstruatiecyclus"
+              ],
+              "juiste_antwoorden": [1, 3, 4],
+              "uitleg": "Borstontwikkeling, toename van vetweefsel op de heupen en de menstruatiecyclus zijn secundaire geslachtskenmerken die zich ontwikkelen tijdens de puberteit onder invloed van oestrogeen. Eierstokken en de vagina zijn primaire geslachtskenmerken: die zijn al aanwezig vanaf de geboorte."
+            },
+            {
+              "id": 5,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste volgorde van hoe secundaire geslachtskenmerken ontstaan.",
+              "opties": {
+                "A": "Secundaire geslachtskenmerken worden zichtbaar",
+                "B": "De hypothalamus stuurt een signaal naar de hypofyse",
+                "C": "De geslachtsorganen produceren geslachtshormonen",
+                "D": "De hypofyse stuurt hormonen naar de geslachtsorganen"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Het begint in de hersenen: de hypothalamus activeert de hypofyse, die hormonen stuurt naar de geslachtsorganen. Die gaan vervolgens geslachtshormonen produceren (testosteron of oestrogeen), waardoor secundaire geslachtskenmerken zich ontwikkelen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "1.2",
+          "subdoel_titel": "Geslachtskenmerken bij de man",
+          "uitleg_tekst": "Primair bij de man: balzak met teelballen en bijballen, penis met zwellichamen, prostaat met zaadblaasjes. Secundair (onder invloed van testosteron): lichaamsbeharing, zwaardere stem, oksel- en schaamhaar, zaadlozing.",
+          "vragen": [
+            {
+              "id": 6,
+              "type": "multiple_choice",
+              "vraag": "Welk hormoon is verantwoordelijk voor de ontwikkeling van secundaire geslachtskenmerken bij de man?",
+              "opties": [
+                "Oestrogeen",
+                "Progesteron",
+                "Testosteron",
+                "Adrenaline"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Testosteron is het mannelijk geslachtshormoon dat verantwoordelijk is voor secundaire geslachtskenmerken zoals lichaamsbeharing, een zwaardere stem en zaadlozing. Oestrogeen is het vrouwelijk geslachtshormoon. Progesteron speelt een rol bij de menstruatiecyclus. Adrenaline is een stresshormoon."
+            },
+            {
+              "id": 7,
+              "type": "multiple_choice",
+              "vraag": "De prostaat is een primair geslachtskenmerk bij de man. Wat is de functie van de prostaat?",
+              "opties": [
+                "Het opslaan van zaadcellen tot ze rijp zijn",
+                "Het produceren van testosteron",
+                "Het produceren van prostaatsap dat onderdeel is van sperma",
+                "Het transporteren van zaadcellen naar de plasbuis"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De prostaat produceert prostaatsap, een vloeistof die samen met de vloeistof uit de zaadblaasjes en de zaadcellen het sperma vormt. De bijballen slaan zaadcellen op, de teelballen produceren testosteron, en de zaadleiders transporteren zaadcellen."
+            },
+            {
+              "id": 8,
+              "type": "invullen",
+              "vraag": "Het mannelijk geslachtshormoon dat wordt geproduceerd door de teelballen heet ...",
+              "juiste_antwoord": "testosteron",
+              "uitleg": "Testosteron wordt geproduceerd in de teelballen en is verantwoordelijk voor de ontwikkeling van secundaire geslachtskenmerken bij de man, zoals lichaamsbeharing, een zwaardere stem en zaadlozing."
+            },
+            {
+              "id": 9,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende zijn primaire geslachtskenmerken bij de man?",
+              "opties": [
+                "Lichaamsbeharing",
+                "Balzak met teelballen en bijballen",
+                "Zwaardere stem",
+                "Penis met zwellichamen",
+                "Prostaat met zaadblaasjes"
+              ],
+              "juiste_antwoorden": [1, 3, 4],
+              "uitleg": "De balzak (met teelballen en bijballen), de penis (met zwellichamen) en de prostaat (met zaadblaasjes) zijn primaire geslachtskenmerken: ze zijn aanwezig vanaf de geboorte. Lichaamsbeharing en een zwaardere stem zijn secundaire kenmerken die pas in de puberteit ontstaan door testosteron."
+            },
+            {
+              "id": 10,
+              "type": "volgorde",
+              "vraag": "Zet de volgende secundaire geslachtskenmerken bij de man in de volgorde waarin ze meestal optreden tijdens de puberteit.",
+              "opties": {
+                "A": "Zaadlozing",
+                "B": "Groei van schaamhaar",
+                "C": "Lichaamsbeharing op borst en benen",
+                "D": "De stem wordt zwaarder (de baard in de keel)"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Tijdens de puberteit bij jongens verschijnt eerst schaamhaar, daarna wordt de stem zwaarder, vervolgens treden de eerste zaadlozingen op, en pas later verschijnt lichaamsbeharing op borst en benen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "1.3",
+          "subdoel_titel": "Geslachtskenmerken bij de vrouw",
+          "uitleg_tekst": "Primair bij de vrouw: eierstokken, eileiders, baarmoeder, vagina met kleine schaamlippen/vulvalippen, clitoris. Secundair (onder invloed van oestrogeen): borstontwikkeling, toename vetweefsel op heupen, oksel- en schaamhaar, menstruatiecyclus.",
+          "vragen": [
+            {
+              "id": 11,
+              "type": "multiple_choice",
+              "vraag": "Welk hormoon zorgt voor de ontwikkeling van secundaire geslachtskenmerken bij de vrouw?",
+              "opties": [
+                "Testosteron",
+                "Adrenaline",
+                "Oestrogeen",
+                "Insuline"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Oestrogeen is het vrouwelijk geslachtshormoon dat wordt geproduceerd door de eierstokken. Het zorgt voor secundaire kenmerken zoals borstontwikkeling, toename van vetweefsel op de heupen en het starten van de menstruatiecyclus."
+            },
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "vraag": "De baarmoeder is een primair geslachtskenmerk bij de vrouw. Wat is de hoofdfunctie van de baarmoeder?",
+              "opties": [
+                "Het produceren en laten rijpen van eicellen tot ze klaar zijn voor bevruchting",
+                "Innesteling van een bevruchte eicel",
+                "Het produceren van het vrouwelijk geslachtshormoon oestrogeen",
+                "Het opvangen van de eicel na de eisprong en transport naar de baarmoeder"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De baarmoeder is de plek waar een bevruchte eicel zich innestelt en waar een baby kan groeien tijdens de zwangerschap. De eierstokken produceren eicellen en oestrogeen. De eileiders vangen de eicel op na de eisprong."
+            },
+            {
+              "id": 13,
+              "type": "invullen",
+              "vraag": "Het vrouwelijk geslachtshormoon dat wordt geproduceerd door de eierstokken heet ...",
+              "juiste_antwoord": "oestrogeen",
+              "uitleg": "Oestrogeen wordt geproduceerd in de eierstokken en speelt een belangrijke rol bij de ontwikkeling van secundaire geslachtskenmerken en de menstruatiecyclus."
+            },
+            {
+              "id": 14,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende zijn primaire geslachtskenmerken bij de vrouw?",
+              "opties": [
+                "Borstontwikkeling",
+                "Eierstokken",
+                "Eileiders",
+                "Oksel- en schaamhaar",
+                "Clitoris"
+              ],
+              "juiste_antwoorden": [1, 2, 4],
+              "uitleg": "Eierstokken, eileiders en de clitoris zijn primaire geslachtskenmerken: aanwezig vanaf de geboorte. Borstontwikkeling en oksel-/schaamhaar zijn secundaire kenmerken die pas ontstaan tijdens de puberteit onder invloed van oestrogeen."
+            },
+            {
+              "id": 15,
+              "type": "volgorde",
+              "vraag": "Zet de volgende secundaire geslachtskenmerken bij de vrouw in de volgorde waarin ze meestal optreden.",
+              "opties": {
+                "A": "Begin van de menstruatiecyclus",
+                "B": "Groei van schaamhaar",
+                "C": "Toename van vetweefsel op de heupen",
+                "D": "Begin van borstontwikkeling"
+              },
+              "juiste_antwoord": "1:D, 2:B, 3:C, 4:A",
+              "uitleg": "Bij meisjes begint de puberteit meestal met borstontwikkeling, gevolgd door groei van schaamhaar, toename van vetweefsel op de heupen, en uiteindelijk de eerste menstruatie (menarche)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 2,
+      "leerdoel_titel": "Mannelijke geslachtsorganen",
+      "paragraaf": "Les 1",
+      "uitleg_tekst": "De mannelijke interne geslachtsorganen bestaan uit de teelballen (productie zaadcellen en testosteron), bijballen (opslag zaadcellen), zaadleiders, zaadblaasjes (produceren vloeistof), prostaat (produceert prostaatsap), en de plasbuis. De uitwendige organen zijn de balzak en de penis met zwellichamen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "2.1",
+          "subdoel_titel": "Interne geslachtsorganen van de man - zijaanzicht",
+          "uitleg_tekst": "Het zijaanzicht toont de ligging van de teelballen in de balzak, de bijballen, zaadleiders, zaadblaasjes, prostaat en de plasbuis door de penis.",
+          "vragen": [
+            {
+              "id": 16,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Waar worden zaadcellen opgeslagen nadat ze geproduceerd zijn?",
+              "opties": [
+                "In de teelballen",
+                "In de zaadblaasjes",
+                "In de bijballen",
+                "In de prostaat"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Zaadcellen worden geproduceerd in de teelballen, maar opgeslagen in de bijballen waar ze verder rijpen. Let op het verschil: de teelballen maken de zaadcellen, de bijballen bewaren ze. De zaadblaasjes produceren vloeistof (geen opslag van zaadcellen!) en de prostaat maakt prostaatsap.",
+              "afbeelding": "images/mannelijke_geslachtsorganen_zijaanzicht.png"
+            },
+            {
+              "id": 17,
+              "type": "multiple_choice",
+              "vraag": "Waarom liggen de teelballen buiten de buikholte in de balzak?",
+              "opties": [
+                "Zodat ze beschermd zijn tegen infecties die vanuit de buikholte komen",
+                "Omdat de temperatuur daar iets lager is, wat nodig is voor zaadcelproductie",
+                "Omdat er in de buikholte onvoldoende ruimte is naast de andere organen",
+                "Zodat het hormoon testosteron sneller via het bloed verspreid wordt"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De teelballen liggen buiten de buikholte omdat zaadcellen een temperatuur nodig hebben die iets lager is dan de lichaamstemperatuur (ongeveer 35°C in plaats van 37°C). In de balzak is het net koel genoeg voor een goede zaadcelproductie."
+            },
+            {
+              "id": 18,
+              "type": "invullen",
+              "vraag": "De buisjes die de zaadcellen van de bijballen naar de plasbuis transporteren heten de ...",
+              "juiste_antwoord": "zaadleiders",
+              "uitleg": "De zaadleiders zijn buizen die de zaadcellen transporteren van de bijballen, langs de zaadblaasjes en prostaat, naar de plasbuis. Onderweg wordt vloeistof van de zaadblaasjes en prostaatsap toegevoegd."
+            },
+            {
+              "id": 19,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke organen dragen bij aan de samenstelling van sperma?",
+              "opties": [
+                "Teelballen (zaadcellen)",
+                "Bijballen",
+                "Zaadblaasjes (vloeistof)",
+                "Prostaat (prostaatsap)",
+                "Plasbuis"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Sperma bestaat uit zaadcellen (uit de teelballen), vloeistof uit de zaadblaasjes en prostaatsap uit de prostaat. De bijballen slaan zaadcellen op maar voegen geen vloeistof toe aan sperma. De plasbuis is alleen een transportkanaal."
+            },
+            {
+              "id": 20,
+              "type": "volgorde",
+              "vraag": "Zet de route van een zaadcel in de juiste volgorde, van productie tot het verlaten van het lichaam.",
+              "opties": {
+                "A": "Plasbuis",
+                "B": "Bijbal",
+                "C": "Teelbal",
+                "D": "Zaadleider"
+              },
+              "juiste_antwoord": "1:C, 2:B, 3:D, 4:A",
+              "uitleg": "Zaadcellen worden geproduceerd in de teelbal, opgeslagen en gerijpt in de bijbal, getransporteerd via de zaadleider (waar vloeistof van zaadblaasjes en prostaat wordt toegevoegd), en verlaten het lichaam via de plasbuis."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "2.2",
+          "subdoel_titel": "Interne geslachtsorganen van de man - vooraanzicht",
+          "uitleg_tekst": "Het vooraanzicht toont de symmetrische ligging van de twee teelballen, bijballen en zaadleiders, en hoe deze samenkomen bij de prostaat en plasbuis.",
+          "vragen": [
+            {
+              "id": 21,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. De zaadblaasjes liggen vlak bij een ander orgaan. Welk orgaan is dat?",
+              "opties": [
+                "De teelballen",
+                "De blaas",
+                "De bijballen",
+                "De prostaat"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Op het vooraanzicht is te zien dat de zaadblaasjes vlak achter de blaas liggen, bovenop de prostaat. De teelballen en bijballen liggen veel lager, in de balzak.",
+              "afbeelding": "images/mannelijke_geslachtsorganen_vooraanzicht.png"
+            },
+            {
+              "id": 22,
+              "type": "multiple_choice",
+              "vraag": "Wat produceren de zaadblaasjes?",
+              "opties": [
+                "Zaadcellen die later rijpen in de bijballen",
+                "Het mannelijk geslachtshormoon testosteron",
+                "Een suikerrijke vloeistof voor zaadcellen",
+                "Prostaatsap voor het verdunnen van sperma"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Ondanks de naam produceren de zaadblaasjes géén zaadcellen! Ze produceren een suikerrijke vloeistof die de zaadcellen van energie voorziet. Dit is een veelgemaakte fout. Zaadcellen worden in de teelballen gemaakt, testosteron ook. Prostaatsap komt uit de prostaat."
+            },
+            {
+              "id": 23,
+              "type": "invullen",
+              "vraag": "De klier die zich rond de plasbuis bevindt, vlak onder de blaas, en prostaatsap produceert, heet de ...",
+              "juiste_antwoord": "prostaat",
+              "uitleg": "De prostaat is een klier die rond de plasbuis ligt, direct onder de blaas. Het prostaatsap dat de prostaat produceert maakt het sperma dunner zodat zaadcellen beter kunnen zwemmen."
+            },
+            {
+              "id": 24,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende uitspraken over de mannelijke geslachtsorganen zijn juist?",
+              "opties": [
+                "De teelballen produceren zowel zaadcellen als testosteron",
+                "De zaadblaasjes produceren zaadcellen",
+                "De prostaat ligt rond de plasbuis, onder de blaas",
+                "De bijballen produceren testosteron"
+              ],
+              "juiste_antwoorden": [0, 2],
+              "uitleg": "De teelballen hebben een dubbele functie: ze produceren zowel zaadcellen als testosteron. De prostaat ligt inderdaad rond de plasbuis onder de blaas. De zaadblaasjes produceren vloeistof, géén zaadcellen (ondanks de naam!). De bijballen slaan zaadcellen op maar produceren geen testosteron."
+            },
+            {
+              "id": 25,
+              "type": "volgorde",
+              "vraag": "Zet de organen in volgorde van boven naar beneden zoals ze in het lichaam liggen (vooraanzicht).",
+              "opties": {
+                "A": "Teelballen",
+                "B": "Blaas",
+                "C": "Prostaat",
+                "D": "Zaadblaasjes"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Van boven naar beneden: de blaas ligt het hoogst, daarachter de zaadblaasjes, daaronder de prostaat (rond de plasbuis), en helemaal onderaan de teelballen in de balzak."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 3,
+      "leerdoel_titel": "Vrouwelijke geslachtsorganen",
+      "paragraaf": "Les 1",
+      "uitleg_tekst": "De vrouwelijke interne geslachtsorganen bestaan uit de eierstokken (productie eicellen en oestrogeen), eileiders (opvangen rijpe eicel), baarmoeder (innesteling bevruchte eicel), baarmoederhals, vagina, en de uitwendige organen schaamlippen en clitoris.",
+      "subdoelen": [
+        {
+          "subdoel_id": "3.1",
+          "subdoel_titel": "Interne geslachtsorganen van de vrouw - zijaanzicht",
+          "uitleg_tekst": "Het zijaanzicht toont de ligging van de eierstokken, eileiders, baarmoeder, baarmoederhals en vagina in het lichaam.",
+          "vragen": [
+            {
+              "id": 26,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Waar worden eicellen geproduceerd?",
+              "opties": [
+                "In de eileiders",
+                "In de baarmoeder",
+                "In de eierstokken",
+                "In de baarmoederhals"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Eicellen bevinden zich in de eierstokken. Let op: ze worden daar niet 'geproduceerd' tijdens het leven — ze zijn al aanwezig vanaf de geboorte. Tijdens de puberteit begint steeds één eicel te rijpen. De eileiders vangen de rijpe eicel op, de baarmoeder is waar de eicel zich eventueel innestelt.",
+              "afbeelding": "images/vrouwelijke_geslachtsorganen_zijaanzicht.png"
+            },
+            {
+              "id": 27,
+              "type": "multiple_choice",
+              "vraag": "Wat is de functie van de eileiders?",
+              "opties": [
+                "Het produceren van oestrogeen",
+                "Het opvangen en transporteren van de rijpe eicel naar de baarmoeder",
+                "Het opslaan van onrijpe eicellen tot ze nodig zijn",
+                "Het afstoten van het baarmoederslijmvlies tijdens de menstruatie"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De eileiders vangen met hun trechtervormige uiteinde de rijpe eicel op na de eisprong en transporteren deze naar de baarmoeder. De bevruchting vindt meestal plaats in de eileider. Oestrogeen komt uit de eierstokken, niet uit de eileiders."
+            },
+            {
+              "id": 28,
+              "type": "invullen",
+              "vraag": "Het orgaan dat de baarmoeder verbindt met de vagina heet de ...",
+              "juiste_antwoord": "baarmoederhals",
+              "uitleg": "De baarmoederhals (cervix) is de smalle doorgang tussen de baarmoeder en de vagina. De baarmoederhals produceert slijm dat de baarmoeder beschermt tegen infecties."
+            },
+            {
+              "id": 29,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke functies hebben de eierstokken?",
+              "opties": [
+                "Eicellen bevatten",
+                "Oestrogeen produceren",
+                "De eicel naar de baarmoeder transporteren",
+                "Het baarmoederslijmvlies opbouwen",
+                "Progesteron produceren"
+              ],
+              "juiste_antwoorden": [0, 1, 4],
+              "uitleg": "De eierstokken hebben meerdere functies: ze bevatten de eicellen (al vanaf de geboorte aanwezig), en ze produceren de hormonen oestrogeen en progesteron. Het transport van de eicel is de taak van de eileiders, en het baarmoederslijmvlies wordt opgebouwd in de baarmoeder zelf (onder invloed van hormonen)."
+            },
+            {
+              "id": 30,
+              "type": "volgorde",
+              "vraag": "Zet de route van een eicel in de juiste volgorde, van rijping tot mogelijke innesteling.",
+              "opties": {
+                "A": "De eicel nestelt zich in het baarmoederslijmvlies",
+                "B": "De rijpe eicel komt vrij uit de eierstok (eisprong)",
+                "C": "De eicel rijpt in de eierstok",
+                "D": "De eileider vangt de eicel op en transporteert deze"
+              },
+              "juiste_antwoord": "1:C, 2:B, 3:D, 4:A",
+              "uitleg": "Eerst rijpt de eicel in de eierstok, dan komt ze vrij bij de eisprong, wordt opgevangen door de eileider die haar naar de baarmoeder transporteert, en als de eicel bevrucht is kan ze zich innestelen in het baarmoederslijmvlies."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "3.2",
+          "subdoel_titel": "Interne geslachtsorganen van de vrouw - vooraanzicht",
+          "uitleg_tekst": "Het vooraanzicht toont de trechters van de eileiders bij de eierstokken, de baarmoeder met baarmoederwand en baarmoederholte, de baarmoederhals en vagina.",
+          "vragen": [
+            {
+              "id": 31,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Waarom hebben de eileiders een trechtervormig uiteinde?",
+              "opties": [
+                "Om oestrogeen af te geven aan de eierstok",
+                "Om de rijpe eicel op te vangen na de eisprong",
+                "Om zaadcellen tegen te houden zodat bevruchting niet in de buikholte plaatsvindt",
+                "Om de eierstokken op hun plek te houden in de buikholte"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Het trechtervormige uiteinde van de eileider dient om de rijpe eicel op te vangen nadat deze bij de eisprong vrijkomt uit de eierstok. De trechter 'veegt' als het ware de eicel naar binnen. De eileider zit namelijk niet direct vast aan de eierstok.",
+              "afbeelding": "images/vrouwelijke_geslachtsorganen_vooraanzicht.png"
+            },
+            {
+              "id": 32,
+              "type": "multiple_choice",
+              "vraag": "Waar vindt de bevruchting van een eicel meestal plaats?",
+              "opties": [
+                "In de baarmoeder",
+                "In de eierstok",
+                "In de eileider",
+                "In de baarmoederhals"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De bevruchting vindt meestal plaats in de eileider, niet in de baarmoeder! De zaadcel ontmoet de eicel in de eileider, en de bevruchte eicel reist vervolgens naar de baarmoeder om zich in te nestelen. Dit is een veelgemaakte fout."
+            },
+            {
+              "id": 33,
+              "type": "invullen",
+              "vraag": "De holte in de baarmoeder waar een bevruchte eicel zich innestelt heet de ...",
+              "juiste_antwoord": "baarmoederholte",
+              "uitleg": "De baarmoederholte is de ruimte binnenin de baarmoeder, bekleed met het baarmoederslijmvlies. Als een bevruchte eicel zich hier innestelt, groeit het slijmvlies uit tot de placenta die de baby voedt."
+            },
+            {
+              "id": 34,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de vrouwelijke geslachtsorganen zijn juist?",
+              "opties": [
+                "De eileiders zitten direct vast aan de eierstokken",
+                "De baarmoeder heeft een dikke spierwand",
+                "Een vrouw heeft twee eierstokken",
+                "De bevruchting vindt plaats in de baarmoeder",
+                "De baarmoederhals verbindt de baarmoeder met de vagina"
+              ],
+              "juiste_antwoorden": [1, 2, 4],
+              "uitleg": "De baarmoeder heeft inderdaad een dikke spierwand (nodig voor de bevalling), een vrouw heeft twee eierstokken, en de baarmoederhals verbindt baarmoeder met vagina. Let op: de eileiders zitten NIET direct vast aan de eierstokken — er zit een opening tussen. En de bevruchting vindt plaats in de eileider, niet in de baarmoeder."
+            },
+            {
+              "id": 35,
+              "type": "volgorde",
+              "vraag": "Zet de onderdelen van het vrouwelijk voortplantingsstelsel in volgorde van buiten naar binnen.",
+              "opties": {
+                "A": "Baarmoeder",
+                "B": "Vagina",
+                "C": "Eileider",
+                "D": "Baarmoederhals"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Van buiten naar binnen: eerst de vagina, dan de baarmoederhals (overgang naar baarmoeder), vervolgens de baarmoeder, en het verst naar binnen de eileiders die naar de eierstokken leiden."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 4,
+      "leerdoel_titel": "Geslachtscellen",
+      "paragraaf": "Les 2",
+      "uitleg_tekst": "Zaadcellen worden vanaf de puberteit voortdurend geproduceerd in de zaadkanaaltjes van de teelballen. Eicellen zijn al vanaf de geboorte aanwezig in de eierstokken. Een zaadcel bestaat uit een kop (met erfelijk materiaal), een middenstuk (met mitochondriën voor energie) en een staart (voor voortbeweging). Een eicel is veel groter en bevat voedingsstoffen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "4.1",
+          "subdoel_titel": "Zaadcellen: productie en bouw",
+          "uitleg_tekst": "Zaadcellen worden geproduceerd in de zaadkanaaltjes van de teelballen. Ze bestaan uit een kop met erfelijk materiaal, een middenstuk met mitochondriën en een staart voor voortbeweging.",
+          "vragen": [
+            {
+              "id": 36,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. In welk deel van de zaadcel bevindt zich het erfelijk materiaal?",
+              "opties": [
+                "In de staart",
+                "In het middenstuk",
+                "In de kop",
+                "Verspreid over de hele zaadcel"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Het erfelijk materiaal (DNA) zit in de kop van de zaadcel. Het middenstuk bevat mitochondriën die energie leveren voor de voortbeweging. De staart zorgt voor de zwembeweging.",
+              "afbeelding": "images/zaadcel_bouw.png"
+            },
+            {
+              "id": 37,
+              "type": "multiple_choice",
+              "vraag": "Waarvoor dienen de mitochondriën in het middenstuk van de zaadcel?",
+              "opties": [
+                "Ze bevatten het erfelijk materiaal",
+                "Ze beschermen de zaadcel tegen het zure milieu in de vagina",
+                "Ze leveren energie voor de zwembeweging van de staart",
+                "Ze helpen bij het binnendringen van de eicel"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De mitochondriën in het middenstuk zijn de energiecentrales van de zaadcel. Ze leveren de energie die nodig is om de staart te laten bewegen, zodat de zaadcel kan zwemmen richting de eicel. Het erfelijk materiaal zit in de kop, niet in de mitochondriën."
+            },
+            {
+              "id": 38,
+              "type": "invullen",
+              "vraag": "Zaadcellen worden geproduceerd in de zaadkanaaltjes. Deze zaadkanaaltjes bevinden zich in de ...",
+              "juiste_antwoord": "teelballen",
+              "uitleg": "De zaadkanaaltjes liggen opgerold in de teelballen. Hier worden voortdurend nieuwe zaadcellen aangemaakt vanaf de puberteit. De zaadcellen rijpen vervolgens verder in de bijballen."
+            },
+            {
+              "id": 39,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over zaadcellen zijn juist?",
+              "opties": [
+                "Ze worden al aangemaakt vóór de geboorte",
+                "Ze worden geproduceerd in de zaadkanaaltjes van de teelballen",
+                "Ze bestaan uit een kop, middenstuk en staart",
+                "Ze zijn groter dan eicellen",
+                "Ze worden vanaf de puberteit voortdurend aangemaakt"
+              ],
+              "juiste_antwoorden": [1, 2, 4],
+              "uitleg": "Zaadcellen worden vanaf de puberteit voortdurend geproduceerd in de zaadkanaaltjes van de teelballen en bestaan uit kop, middenstuk en staart. Ze worden NIET vóór de geboorte aangemaakt (dat geldt voor eicellen!). En zaadcellen zijn juist veel kleiner dan eicellen, niet groter."
+            },
+            {
+              "id": 40,
+              "type": "volgorde",
+              "vraag": "Zet de onderdelen van een zaadcel in volgorde van voor naar achter.",
+              "opties": {
+                "A": "Staart",
+                "B": "Middenstuk (met mitochondriën)",
+                "C": "Kop (met erfelijk materiaal)",
+                "D": "Acrosoom (kapje op de kop)"
+              },
+              "juiste_antwoord": "1:D, 2:C, 3:B, 4:A",
+              "uitleg": "Van voor naar achter: het acrosoom (een kapje met enzymen om de eicel binnen te dringen) zit op het voorste puntje, dan de kop met het erfelijk materiaal, het middenstuk met mitochondriën voor energie, en als laatste de staart voor voortbeweging."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "4.2",
+          "subdoel_titel": "Eicellen: aanwezigheid en bouw",
+          "uitleg_tekst": "Eicellen zijn al vanaf de geboorte aanwezig in de eierstokken. Tijdens de puberteit begint steeds een eicel te rijpen. Een eicel is veel groter dan een zaadcel en bevat voedingsstoffen voor de eerste celdelingen na bevruchting.",
+          "vragen": [
+            {
+              "id": 41,
+              "type": "multiple_choice",
+              "vraag": "Wanneer worden eicellen 'aangemaakt' bij een vrouw?",
+              "opties": [
+                "Vanaf de puberteit, net als zaadcellen bij mannen",
+                "Elke maand rijpt er één en worden er nieuwe aangemaakt",
+                "Ze zijn al aanwezig vóór de geboorte",
+                "Pas nadat de eerste menstruatie heeft plaatsgevonden"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Alle eicellen zijn al aanwezig vóór de geboorte — een meisje wordt geboren met al haar eicellen (honderdduizenden). Vanaf de puberteit rijpt er steeds één eicel per cyclus, maar er worden geen nieuwe aangemaakt. Dit is een groot verschil met zaadcellen, die wél voortdurend worden geproduceerd.",
+              "afbeelding": "images/geslachtscellen.png"
+            },
+            {
+              "id": 42,
+              "type": "multiple_choice",
+              "vraag": "Een eicel is ongeveer 0,1 mm groot. Een zaadcel is ongeveer 0,06 mm lang. Waarom is de eicel zoveel groter?",
+              "opties": [
+                "Omdat de eicel meer erfelijk materiaal bevat",
+                "Omdat de eicel een staart mist die de zaadcel wel heeft",
+                "Omdat de eicel voedingsstoffen bevat voor de eerste celdelingen na bevruchting",
+                "Omdat de eicel zwaarder moet zijn om op zijn plaats te blijven in de eileider"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De eicel is veel groter dan een zaadcel omdat ze voedingsstoffen (dooier) bevat die nodig zijn voor de eerste celdelingen na de bevruchting. Beide cellen bevatten evenveel erfelijk materiaal (23 chromosomen). De grootte heeft niets te maken met een staart of gewicht."
+            },
+            {
+              "id": 43,
+              "type": "invullen",
+              "vraag": "Vanaf de puberteit rijpt er tijdens elke cyclus één eicel in de eierstok tot een rijpe eicel. Het vrijkomen van deze rijpe eicel noemen we de ...",
+              "juiste_antwoord": "eisprong",
+              "uitleg": "De eisprong (ovulatie) is het moment waarop de rijpe eicel vrijkomt uit de eierstok. Dit gebeurt ongeveer halverwege de menstruatiecyclus, rond dag 14."
+            },
+            {
+              "id": 44,
+              "type": "choose_all_that_apply",
+              "vraag": "Wat zijn verschillen tussen zaadcellen en eicellen?",
+              "opties": [
+                "Zaadcellen zijn kleiner dan eicellen",
+                "Eicellen kunnen zichzelf voortbewegen, zaadcellen niet",
+                "Zaadcellen worden voortdurend aangemaakt, eicellen zijn al aanwezig vanaf de geboorte",
+                "Eicellen bevatten voedingsstoffen, zaadcellen niet",
+                "Zaadcellen bevatten 46 chromosomen, eicellen 23"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Zaadcellen zijn veel kleiner, worden voortdurend aangemaakt (vanaf puberteit), en bevatten geen voedingsstoffen. Eicellen zijn groter, al aanwezig vanaf geboorte, en bevatten voedingsstoffen. Eicellen kunnen zich NIET zelf voortbewegen (ze worden door de eileider getransporteerd). Beide cellen bevatten 23 chromosomen (niet 46)."
+            },
+            {
+              "id": 45,
+              "type": "volgorde",
+              "vraag": "Zet de volgende stappen in de juiste volgorde van bevruchting.",
+              "opties": {
+                "A": "De bevruchte eicel nestelt zich in het baarmoederslijmvlies",
+                "B": "De zaadcel dringt de eicel binnen in de eileider",
+                "C": "De rijpe eicel komt vrij uit de eierstok",
+                "D": "De bevruchte eicel deelt zich terwijl ze naar de baarmoeder reist"
+              },
+              "juiste_antwoord": "1:C, 2:B, 3:D, 4:A",
+              "uitleg": "Eerst komt de rijpe eicel vrij bij de eisprong, dan dringt een zaadcel de eicel binnen in de eileider (bevruchting), de bevruchte eicel deelt zich onderweg naar de baarmoeder, en nestelt zich uiteindelijk in het baarmoederslijmvlies (innesteling)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 5,
+      "leerdoel_titel": "Hormonen en de menstruatiecyclus",
+      "paragraaf": "Les 2",
+      "uitleg_tekst": "De hypothalamus in de hersenen stuurt de hypofyse aan, die hormonen produceert die de geslachtsorganen beïnvloeden. Bij de vrouw rijpt tijdens elke cyclus een eicel in de eierstok onder invloed van hormonen. De menstruatiecyclus duurt gemiddeld 28 dagen en bestaat uit de menstruatie, opbouw van het baarmoederslijmvlies, de eisprong (halverwege) en afbraak van het slijmvlies als geen bevruchting plaatsvindt.",
+      "subdoelen": [
+        {
+          "subdoel_id": "5.1",
+          "subdoel_titel": "Hormoonstelsel: hypothalamus en hypofyse",
+          "uitleg_tekst": "De hypothalamus stuurt de hypofyse aan. De hypofyse produceert hormonen die via het bloed naar de geslachtsorganen worden getransporteerd om daar hun werking uit te oefenen.",
+          "vragen": [
+            {
+              "id": 46,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Welk orgaan in de hersenen stuurt de hypofyse aan?",
+              "opties": [
+                "De kleine hersenen",
+                "De hypothalamus",
+                "De grote hersenen",
+                "De hersenstam"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De hypothalamus is een klein deel van de hersenen dat de hypofyse aanstuurt. De hypofyse produceert vervolgens hormonen die via het bloed naar de geslachtsorganen reizen. De hypothalamus is als het ware de 'baas' van het hormoonsysteem.",
+              "afbeelding": "images/hormonen_diagram.png"
+            },
+            {
+              "id": 47,
+              "type": "multiple_choice",
+              "vraag": "Hoe worden hormonen van de hypofyse naar de geslachtsorganen getransporteerd?",
+              "opties": [
+                "Via het zenuwstelsel",
+                "Via het lymfestelsel",
+                "Via het bloed",
+                "Via de eileiders of zaadleiders"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Hormonen worden altijd via het bloed getransporteerd — dat is het kenmerk van hormonen. Ze worden door een klier afgegeven aan het bloed en bereiken zo hun doelorgaan. Dit is anders dan zenuwsignalen die via zenuwen lopen."
+            },
+            {
+              "id": 48,
+              "type": "invullen",
+              "vraag": "De klier in de hersenen die hormonen produceert om de geslachtsorganen aan te sturen heet de ...",
+              "juiste_antwoord": "hypofyse",
+              "uitleg": "De hypofyse is een kleine klier aan de onderkant van de hersenen die wordt aangestuurd door de hypothalamus. De hypofyse produceert hormonen die de geslachtsorganen stimuleren om geslachtshormonen (testosteron of oestrogeen) te maken."
+            },
+            {
+              "id": 49,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de hormoonketen zijn juist?",
+              "opties": [
+                "De hypofyse stuurt de hypothalamus aan",
+                "Hormonen worden via het bloed getransporteerd",
+                "De hypothalamus ligt in de hersenen",
+                "De geslachtsorganen produceren geslachtshormonen na signalen van de hypofyse",
+                "Hormonen reizen via zenuwen naar hun doelorgaan"
+              ],
+              "juiste_antwoorden": [1, 2, 3],
+              "uitleg": "Hormonen gaan via het bloed (niet via zenuwen), de hypothalamus ligt in de hersenen en stuurt de hypofyse aan (niet andersom!), en de geslachtsorganen produceren geslachtshormonen na stimulatie door de hypofyse."
+            },
+            {
+              "id": 50,
+              "type": "volgorde",
+              "vraag": "Zet de hormoonketen in de juiste volgorde.",
+              "opties": {
+                "A": "Geslachtsorganen produceren testosteron of oestrogeen",
+                "B": "Hypothalamus stuurt signaal naar hypofyse",
+                "C": "Secundaire geslachtskenmerken ontwikkelen zich",
+                "D": "Hypofyse geeft hormonen af aan het bloed"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "De keten begint bij de hypothalamus die de hypofyse aanstuurt, de hypofyse geeft hormonen af aan het bloed, deze hormonen stimuleren de geslachtsorganen om testosteron of oestrogeen te produceren, en deze hormonen zorgen voor de ontwikkeling van secundaire geslachtskenmerken."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.2",
+          "subdoel_titel": "Eicelontwikkeling en eisprong",
+          "uitleg_tekst": "Tijdens de puberteit begint steeds een eicel te rijpen tot een rijpe eicel. Vanaf dat moment is een meisje vruchtbaar en kan ze zwanger raken. De eisprong vindt ongeveer halverwege de cyclus plaats.",
+          "vragen": [
+            {
+              "id": 51,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wanneer is een meisje voor het eerst vruchtbaar?",
+              "opties": [
+                "Zodra de eerste menstruatie optreedt",
+                "Al vóór de eerste menstruatie",
+                "Pas als ze 16 jaar oud is",
+                "Zodra de borstontwikkeling begint in de puberteit"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Een meisje is al vruchtbaar vóór haar eerste menstruatie! De eerste eisprong vindt namelijk plaats vóór de eerste menstruatie. Omdat de menstruatie pas optreedt als de eicel NIET bevrucht is, kan een meisje dus al zwanger raken voordat ze ooit gemenstrueerd heeft. Dit is een belangrijke strikvraag!",
+              "afbeelding": "images/eicel_ontwikkeling.png"
+            },
+            {
+              "id": 52,
+              "type": "multiple_choice",
+              "vraag": "Op welke dag van de cyclus vindt de eisprong ongeveer plaats?",
+              "opties": [
+                "Dag 1",
+                "Dag 7",
+                "Dag 14",
+                "Dag 28"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De eisprong vindt ongeveer halverwege de menstruatiecyclus plaats, rond dag 14 (bij een cyclus van 28 dagen). Dag 1 is het begin van de menstruatie, dag 28 is de laatste dag voor de volgende menstruatie."
+            },
+            {
+              "id": 53,
+              "type": "invullen",
+              "vraag": "Tijdens de puberteit rijpt er in de eierstok steeds een onrijpe eicel tot een ... eicel.",
+              "juiste_antwoord": "rijpe",
+              "uitleg": "Onder invloed van hormonen uit de hypofyse rijpt er elke cyclus één eicel in de eierstok tot een rijpe eicel. Bij de eisprong komt deze rijpe eicel vrij en wordt ze opgevangen door de eileider."
+            },
+            {
+              "id": 54,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de eisprong zijn juist?",
+              "opties": [
+                "De eisprong vindt plaats aan het begin van de cyclus",
+                "Bij de eisprong komt een rijpe eicel vrij uit de eierstok",
+                "Na de eisprong wordt de eicel opgevangen door de eileider",
+                "Een vrouw kan alleen zwanger raken op de exacte dag van de eisprong",
+                "De eisprong vindt ongeveer halverwege de cyclus plaats"
+              ],
+              "juiste_antwoorden": [1, 2, 4],
+              "uitleg": "Bij de eisprong (halverwege de cyclus, rond dag 14) komt een rijpe eicel vrij uit de eierstok en wordt opgevangen door de eileider. De eisprong is NIET aan het begin van de cyclus. Een vrouw kan niet alleen op de exacte dag zwanger raken — zaadcellen kunnen enkele dagen overleven, waardoor de vruchtbare periode enkele dagen rond de eisprong beslaat."
+            },
+            {
+              "id": 55,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van eicelrijping in de juiste volgorde.",
+              "opties": {
+                "A": "De eileider vangt de rijpe eicel op",
+                "B": "Hormonen uit de hypofyse stimuleren de eierstok",
+                "C": "De rijpe eicel barst uit het follikel (eisprong)",
+                "D": "Een eicel in de eierstok begint te rijpen in een follikel"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Hormonen uit de hypofyse stimuleren de eierstok, waardoor een eicel begint te rijpen in een follikel (blaasje). Als de eicel rijp is, barst het follikel open (eisprong) en wordt de eicel opgevangen door de trechter van de eileider."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.3",
+          "subdoel_titel": "De menstruatiecyclus",
+          "uitleg_tekst": "De menstruatiecyclus duurt gemiddeld 28 dagen. Tijdens de menstruatie wordt het baarmoederslijmvlies afgestoten. Daarna bouwt het slijmvlies zich weer op. Halverwege vindt de eisprong plaats. De vruchtbare periode ligt rond de eisprong.",
+          "vragen": [
+            {
+              "id": 56,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wat gebeurt er met het baarmoederslijmvlies als de eicel NIET bevrucht wordt?",
+              "opties": [
+                "Het wordt dikker en dikker tot de volgende eisprong",
+                "Het wordt afgestoten samen met bloed: dat is de menstruatie",
+                "Het wordt opnieuw gebruikt voor de volgende cyclus",
+                "Het lost langzaam op in de baarmoeder zonder bloedverlies"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Als er geen bevruchting plaatsvindt, is het opgebouwde baarmoederslijmvlies niet nodig. Het wordt afgestoten samen met bloed — dit is de menstruatie. Daarna begint de cyclus opnieuw: het slijmvlies bouwt zich weer op voor een mogelijke volgende zwangerschap.",
+              "afbeelding": "images/menstruatiecyclus.png"
+            },
+            {
+              "id": 57,
+              "type": "multiple_choice",
+              "vraag": "De menstruatiecyclus duurt gemiddeld 28 dagen. Wat wordt geteld als 'dag 1'?",
+              "opties": [
+                "De dag van de eisprong",
+                "De eerste dag van de menstruatie",
+                "De dag na de menstruatie",
+                "De dag waarop het baarmoederslijmvlies het dikst is"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Dag 1 van de menstruatiecyclus is de eerste dag van de menstruatie (het bloedverlies). Vanaf die dag wordt geteld. De eisprong valt rond dag 14, en als er geen bevruchting is, begint rond dag 28 de volgende menstruatie."
+            },
+            {
+              "id": 58,
+              "type": "invullen",
+              "vraag": "Het afstoten van het baarmoederslijmvlies samen met bloed heet de ...",
+              "juiste_antwoord": "menstruatie",
+              "uitleg": "De menstruatie is het afstoten van het baarmoederslijmvlies samen met bloed via de vagina. Dit gebeurt als de eicel niet bevrucht is. De menstruatie duurt meestal 3 tot 7 dagen."
+            },
+            {
+              "id": 59,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke gebeurtenissen vinden plaats tijdens de menstruatiecyclus?",
+              "opties": [
+                "Het baarmoederslijmvlies wordt opgebouwd",
+                "Er worden nieuwe eicellen aangemaakt in de eierstok",
+                "Een eicel rijpt in de eierstok",
+                "Het baarmoederslijmvlies wordt afgestoten als er geen bevruchting is",
+                "De eisprong vindt plaats halverwege de cyclus"
+              ],
+              "juiste_antwoorden": [0, 2, 3, 4],
+              "uitleg": "Tijdens de cyclus wordt het slijmvlies opgebouwd, rijpt een eicel, vindt de eisprong plaats (halverwege), en wordt het slijmvlies afgestoten als er geen bevruchting is. Er worden GEEN nieuwe eicellen aangemaakt — die zijn al vanaf de geboorte aanwezig!"
+            },
+            {
+              "id": 60,
+              "type": "volgorde",
+              "vraag": "Zet de fasen van de menstruatiecyclus in de juiste volgorde (begin bij dag 1).",
+              "opties": {
+                "A": "Eisprong: de rijpe eicel komt vrij",
+                "B": "Menstruatie: het slijmvlies wordt afgestoten",
+                "C": "Het baarmoederslijmvlies wordt weer afgebroken (geen bevruchting)",
+                "D": "Het baarmoederslijmvlies bouwt zich op"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "De cyclus begint met de menstruatie (dag 1-5), daarna bouwt het baarmoederslijmvlies zich op (dag 5-14), halverwege vindt de eisprong plaats (dag 14), en als de eicel niet bevrucht wordt, breekt het slijmvlies weer af (dag 14-28), waarna de menstruatie opnieuw begint."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 6,
+      "leerdoel_titel": "Anticonceptiemiddelen",
+      "paragraaf": "Les 2",
+      "uitleg_tekst": "Anticonceptiemiddelen voorkomen zwangerschap. Er zijn hormonale middelen (de pil, prikpil, pleisterpil, hormoonstaafje, hormoonring), barrièremiddelen (condoom, vrouwencondoom, pessarium) en het spiraaltje (koperspiraaltje en hormoonspiraaltje). Ze verschillen in werking, betrouwbaarheid en bescherming tegen SOA's. Alleen het condoom en vrouwencondoom beschermen tegen SOA's.",
+      "subdoelen": [
+        {
+          "subdoel_id": "6.1",
+          "subdoel_titel": "Hormonale anticonceptie: de pil",
+          "uitleg_tekst": "De pil bevat kunstmatige hormonen die de eisprong voorkomen. Je slikt 21 dagen een pil, daarna 7 dagen een stopweek. De pil kan ook helpen bij: minder bloedverlies en minder pijn tijdens de menstruatie. De pil beschermt niet tegen SOA's.",
+          "vragen": [
+            {
+              "id": 61,
+              "type": "multiple_choice",
+              "vraag": "Hoe voorkomt de anticonceptiepil een zwangerschap?",
+              "opties": [
+                "Door zaadcellen te doden met een chemische stof",
+                "Door de eisprong te voorkomen",
+                "Door een fysieke barrière te vormen voor de baarmoedermond",
+                "Door het baarmoederslijmvlies permanent te verwijderen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De pil bevat kunstmatige hormonen die de eisprong voorkomen. Zonder eisprong is er geen eicel die bevrucht kan worden. Daarnaast maakt de pil het baarmoederhalsslijm dikker, waardoor zaadcellen moeilijker doorkomen."
+            },
+            {
+              "id": 62,
+              "type": "multiple_choice",
+              "vraag": "Een vrouw is de pil een dag vergeten. Wat is het risico?",
+              "opties": [
+                "Geen risico, want de pil werkt tot 72 uur door in het lichaam",
+                "De bescherming kan verminderd zijn",
+                "Ze moet per direct de hele strip opnieuw beginnen met slikken",
+                "Er is alleen risico als ze de pil meer dan 3 dagen achter elkaar vergeet"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Als je de pil vergeet, kan de bescherming verminderd zijn. De hormoonspiegels dalen en er kan alsnog een eisprong optreden. Hoe langer je de pil vergeet, hoe groter het risico. Het is belangrijk om de pil elke dag op hetzelfde tijdstip te slikken."
+            },
+            {
+              "id": 63,
+              "type": "invullen",
+              "vraag": "Bij gebruik van de anticonceptiepil slik je meestal 21 dagen een pil. Daarna volgt een ... van 7 dagen.",
+              "juiste_antwoord": "stopweek",
+              "uitleg": "Na 21 dagen pilgebruik volgt een stopweek van 7 dagen. Tijdens deze stopweek treedt een onttrekkingsbloeding op (die lijkt op een menstruatie). Na de stopweek begin je aan een nieuwe strip."
+            },
+            {
+              "id": 64,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke voordelen kan het gebruik van de pil hebben naast het voorkomen van zwangerschap?",
+              "opties": [
+                "Bescherming tegen SOA's",
+                "Minder bloedverlies tijdens de menstruatie",
+                "Minder pijn tijdens de menstruatie",
+                "Verbetering van de vruchtbaarheid na stoppen",
+                "Minder last van hormoonschommelingen"
+              ],
+              "juiste_antwoorden": [1, 2],
+              "uitleg": "De pil kan zorgen voor minder bloedverlies en minder pijn tijdens de menstruatie. De pil beschermt NIET tegen SOA's (dat doet alleen het condoom). De pil verbetert niet de vruchtbaarheid — na stoppen keert de normale cyclus terug."
+            },
+            {
+              "id": 65,
+              "type": "volgorde",
+              "vraag": "Zet het pilgebruik in de juiste volgorde.",
+              "opties": {
+                "A": "Onttrekkingsbloeding treedt op",
+                "B": "Begin met slikken op de eerste dag van de menstruatie",
+                "C": "Start de stopweek (7 dagen geen pil)",
+                "D": "Slik 21 dagen elke dag een pil"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Je begint met de pil op de eerste dag van je menstruatie, slikt 21 dagen lang elke dag een pil, stopt dan 7 dagen (stopweek), en tijdens die stopweek krijg je een onttrekkingsbloeding. Daarna begin je aan een nieuwe strip."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "6.2",
+          "subdoel_titel": "Hormonale anticonceptie: overige middelen",
+          "uitleg_tekst": "De prikpil bevat medroxyprogesteron en wordt om de 12 weken geïnjecteerd. De pleisterpil is een pleister die wekelijks vervangen wordt (3 weken plakken, 1 week stop). Het hormoonstaafje wordt onder de huid geplaatst en werkt circa 3 jaar. De hormoonring wordt 3 weken ingebracht en 1 week verwijderd.",
+          "vragen": [
+            {
+              "id": 66,
+              "type": "multiple_choice",
+              "vraag": "Hoe vaak moet de prikpil worden toegediend?",
+              "opties": [
+                "Elke week",
+                "Elke maand",
+                "Om de 12 weken",
+                "Om de 6 maanden"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De prikpil is een injectie die om de 12 weken wordt gegeven. Het bevat een hoge dosis progestageen (medroxyprogesteron). Een voordeel is dat je niet dagelijks ergens aan hoeft te denken, maar het bevat een hogere dosis hormonen dan de gewone pil."
+            },
+            {
+              "id": 67,
+              "type": "multiple_choice",
+              "vraag": "Het hormoonstaafje werkt anders dan de pil. Wat is een belangrijk verschil?",
+              "opties": [
+                "Het staafje bevat oestrogeen in plaats van progestageen",
+                "Het wordt onder de huid geplaatst en werkt 3 jaar",
+                "Het staafje beschermt ook tegen SOA's en zwangerschap",
+                "Het staafje moet net als de pil dagelijks vervangen worden"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Het hormoonstaafje is een klein staafje dat onder de huid van de bovenarm wordt geplaatst en daar circa 3 jaar werkzaam blijft. Het geeft langzaam progestageen af. Na verwijdering keert de vruchtbaarheid snel terug. Het beschermt niet tegen SOA's en hoeft juist niet dagelijks vervangen te worden."
+            },
+            {
+              "id": 68,
+              "type": "invullen",
+              "vraag": "De anticonceptiepleister (pleisterpil) moet elke week worden vervangen gedurende 3 weken. Daarna volgt ... week zonder pleister.",
+              "juiste_antwoord": "1",
+              "uitleg": "Bij de pleisterpil plak je 3 weken lang elke week een nieuwe pleister, gevolgd door 1 stopweek zonder pleister. Dit ritme is vergelijkbaar met de pil (21 dagen + 7 dagen stop)."
+            },
+            {
+              "id": 69,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke hormonale anticonceptiemiddelen hoef je niet dagelijks te gebruiken?",
+              "opties": [
+                "De pil",
+                "De prikpil",
+                "Het hormoonstaafje",
+                "De pleisterpil",
+                "De hormoonring"
+              ],
+              "juiste_antwoorden": [1, 2, 3, 4],
+              "uitleg": "Alleen de pil moet dagelijks geslikt worden. De prikpil is om de 12 weken, het hormoonstaafje werkt 3 jaar, de pleisterpil wordt wekelijks vervangen, en de hormoonring blijft 3 weken in. Al deze alternatieven zijn ontwikkeld voor vrouwen die niet dagelijks aan anticonceptie willen denken."
+            },
+            {
+              "id": 70,
+              "type": "volgorde",
+              "vraag": "Zet de hormonale anticonceptiemiddelen in volgorde van kortste naar langste werkingsduur.",
+              "opties": {
+                "A": "Hormoonstaafje (circa 3 jaar)",
+                "B": "Pil (1 dag)",
+                "C": "Pleisterpil (1 week)",
+                "D": "Prikpil (12 weken)"
+              },
+              "juiste_antwoord": "1:B, 2:C, 3:D, 4:A",
+              "uitleg": "Van kort naar lang: de pil werkt 1 dag, de pleisterpil 1 week, de prikpil 12 weken (3 maanden), en het hormoonstaafje circa 3 jaar. Hoe langer de werkingsduur, hoe minder vaak je eraan hoeft te denken."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "6.3",
+          "subdoel_titel": "Barrièremiddelen",
+          "uitleg_tekst": "Het condoom is een rubberen hoesje over de penis dat zaadcellen tegenhoudt. Het is het enige anticonceptiemiddel dat ook beschermt tegen SOA's. Het vrouwencondoom (femidom) wordt in de vagina gebracht. Het pessarium is een dun rubber kapje dat over de baarmoedermond wordt geplaatst samen met zaaddodende pasta.",
+          "vragen": [
+            {
+              "id": 71,
+              "type": "multiple_choice",
+              "vraag": "Welk anticonceptiemiddel is het enige dat beschermt tegen zowel zwangerschap als SOA's?",
+              "opties": [
+                "De pil",
+                "Het spiraaltje",
+                "Het condoom",
+                "Het hormoonstaafje"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Het condoom is het enige veelgebruikte anticonceptiemiddel dat beschermt tegen zowel zwangerschap als seksueel overdraagbare aandoeningen (SOA's). Alle hormonale middelen en het spiraaltje beschermen alleen tegen zwangerschap, niet tegen SOA's."
+            },
+            {
+              "id": 72,
+              "type": "multiple_choice",
+              "vraag": "Het pessarium moet na de geslachtsgemeenschap nog minimaal een bepaalde tijd blijven zitten. Hoe lang?",
+              "opties": [
+                "1 uur",
+                "4 uur",
+                "8 uur",
+                "24 uur"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Het pessarium moet na geslachtsgemeenschap nog minimaal 8 uur blijven zitten. Dit is nodig om ervoor te zorgen dat alle zaadcellen zijn afgestorven door de zaaddodende pasta voordat het pessarium wordt verwijderd."
+            },
+            {
+              "id": 73,
+              "type": "invullen",
+              "vraag": "Het vrouwencondoom wordt ook wel een ... genoemd.",
+              "juiste_antwoord": "femidom",
+              "uitleg": "Het vrouwencondoom heet ook wel femidom. Het is gemaakt van polyurethaan en wordt in de vagina gebracht vóór de geslachtsgemeenschap. Net als het mannelijk condoom beschermt het tegen zowel zwangerschap als SOA's."
+            },
+            {
+              "id": 74,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over het condoom zijn juist?",
+              "opties": [
+                "Het is een hormonaal anticonceptiemiddel",
+                "Het is een rubberen hoesje dat over de penis wordt gerold",
+                "Het beschermt tegen SOA's",
+                "Het is minder betrouwbaar dan de pil bij perfect gebruik",
+                "Er bestaan veel verschillende maten"
+              ],
+              "juiste_antwoorden": [1, 2, 3, 4],
+              "uitleg": "Het condoom is een barrièremiddel (niet hormonaal!), is een rubberen hoesje over de penis, beschermt tegen SOA's, is bij typisch gebruik iets minder betrouwbaar dan de pil, en er zijn inderdaad veel maten beschikbaar. Het is het enige middel dat dubbele bescherming biedt."
+            },
+            {
+              "id": 75,
+              "type": "volgorde",
+              "vraag": "Zet de stappen voor het gebruik van een condoom in de juiste volgorde.",
+              "opties": {
+                "A": "Rol het condoom over de stijve penis",
+                "B": "Controleer de houdbaarheidsdatum op de verpakking",
+                "C": "Verwijder het condoom na de zaadlozing en gooi het weg",
+                "D": "Knijp het topje samen om lucht eruit te laten"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Eerst controleer je de houdbaarheidsdatum, dan knijp je het topje (reservoir) samen zodat er geen lucht in zit, vervolgens rol je het condoom over de stijve penis, en na de zaadlozing verwijder je het condoom en gooi je het weg."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "6.4",
+          "subdoel_titel": "Het spiraaltje",
+          "uitleg_tekst": "Er zijn twee soorten spiraaltjes: het koperspiraaltje (werkt zonder hormonen, koper is giftig voor zaadcellen) en het hormoonspiraaltje (geeft hormonen af). Beide worden door een arts in de baarmoeder geplaatst en zorgen ervoor dat een eitje zich niet kan innestelen.",
+          "vragen": [
+            {
+              "id": 76,
+              "type": "multiple_choice",
+              "vraag": "Er zijn twee soorten spiraaltjes. Welke zijn dat?",
+              "opties": [
+                "Gouden spiraaltje en zilveren spiraaltje",
+                "Koperspiraaltje en hormoonspiraaltje",
+                "Plastic spiraaltje en metalen spiraaltje",
+                "Klein spiraaltje en groot spiraaltje"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Er zijn twee soorten: het koperspiraaltje (werkt zonder hormonen — het koper is giftig voor zaadcellen) en het hormoonspiraaltje (geeft langzaam hormonen af). Beide worden door een arts in de baarmoeder geplaatst."
+            },
+            {
+              "id": 77,
+              "type": "multiple_choice",
+              "vraag": "Wie mag een spiraaltje plaatsen?",
+              "opties": [
+                "Je kunt het zelf doen met een handleiding",
+                "Alleen een arts mag dit doen",
+                "Een drogist kan het plaatsen",
+                "Het wordt automatisch geplaatst tijdens een ziekenhuisbezoek"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Een spiraaltje moet altijd door een arts worden geplaatst. Het wordt via de vagina en baarmoederhals in de baarmoeder ingebracht. Dit vereist medische kennis en steriel materiaal."
+            },
+            {
+              "id": 78,
+              "type": "invullen",
+              "vraag": "Het koperspiraaltje werkt zonder hormonen. Het koper is giftig voor ...",
+              "juiste_antwoord": "zaadcellen",
+              "uitleg": "Het koper in het koperspiraaltje is giftig voor zaadcellen, waardoor ze worden gedood voordat ze een eicel kunnen bereiken. Daarnaast verandert het de baarmoederwand zodat innesteling wordt bemoeilijkt. Dit alles zonder hormonen."
+            },
+            {
+              "id": 79,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over het spiraaltje zijn juist?",
+              "opties": [
+                "Het wordt in de baarmoeder geplaatst",
+                "Het koperspiraaltje werkt met hormonen",
+                "Het hormoonspiraaltje geeft langzaam hormonen af",
+                "Het beschermt tegen SOA's",
+                "Het zorgt dat een eitje zich niet kan innestelen"
+              ],
+              "juiste_antwoorden": [0, 2, 4],
+              "uitleg": "Het spiraaltje wordt in de baarmoeder geplaatst, het hormoonspiraaltje geeft hormonen af, en het voorkomt innesteling. Het koperspiraaltje werkt juist ZONDER hormonen (het koper doodt zaadcellen). Geen enkel spiraaltje beschermt tegen SOA's."
+            },
+            {
+              "id": 80,
+              "type": "volgorde",
+              "vraag": "Zet de werkingsmechanismen van het koperspiraaltje in de juiste volgorde van eerste tot laatste effect.",
+              "opties": {
+                "A": "Een eventueel bevruchte eicel kan zich niet innestelen",
+                "B": "Het koper wordt afgegeven in de baarmoeder",
+                "C": "Zaadcellen worden gedood door het koper",
+                "D": "De arts plaatst het spiraaltje in de baarmoeder"
+              },
+              "juiste_antwoord": "1:D, 2:B, 3:C, 4:A",
+              "uitleg": "Eerst plaatst de arts het spiraaltje, dan geeft het koper af in de baarmoeder, het koper doodt zaadcellen (eerste verdedigingslinie), en als laatste verdedigingslinie wordt innesteling bemoeilijkt."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "6.5",
+          "subdoel_titel": "Overzicht en vergelijking anticonceptiemiddelen",
+          "uitleg_tekst": "Anticonceptiemiddelen verschillen in type (hormonaal, barrière, spiraaltje), werking, betrouwbaarheid, voor- en nadelen, en bescherming tegen SOA's. Alleen het condoom (en vrouwencondoom) beschermt tegen SOA's.",
+          "vragen": [
+            {
+              "id": 81,
+              "type": "multiple_choice",
+              "vraag": "Een koppel wil zich beschermen tegen zowel zwangerschap als SOA's. Welke combinatie is het meest geschikt?",
+              "opties": [
+                "Pil + spiraaltje",
+                "Condoom + pil",
+                "Pessarium + hormoonring",
+                "Prikpil + vrouwencondoom"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De combinatie condoom + pil biedt dubbele bescherming: het condoom tegen SOA's en als extra barrière, de pil als zeer betrouwbaar hormonaal middel tegen zwangerschap. De pil en het spiraaltje beschermen beide niet tegen SOA's, dus die combinatie mist SOA-bescherming."
+            },
+            {
+              "id": 82,
+              "type": "multiple_choice",
+              "vraag": "Welk anticonceptiemiddel is GEEN hormonaal middel?",
+              "opties": [
+                "De prikpil",
+                "Het hormoonstaafje",
+                "Het koperspiraaltje",
+                "De hormoonring"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Het koperspiraaltje is het enige genoemde middel dat GEEN hormonen bevat. Het werkt doordat het koper giftig is voor zaadcellen. Let op de naam: ondanks dat er ook een hormoonspiraaltje bestaat, is het KOPERspiraaltje hormoonvrij. De prikpil, het hormoonstaafje en de hormoonring werken allemaal met hormonen."
+            },
+            {
+              "id": 83,
+              "type": "invullen",
+              "vraag": "Anticonceptiemiddelen die een fysieke barrière vormen tussen zaadcellen en eicel worden ... genoemd.",
+              "juiste_antwoord": "barrièremiddelen",
+              "uitleg": "Barrièremiddelen vormen een fysieke barrière die voorkomt dat zaadcellen de eicel bereiken. Voorbeelden zijn het condoom, het vrouwencondoom en het pessarium. Ze bevatten geen hormonen."
+            },
+            {
+              "id": 84,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke anticonceptiemiddelen werken met hormonen?",
+              "opties": [
+                "De pil",
+                "Het condoom",
+                "De prikpil",
+                "Het pessarium",
+                "De hormoonring",
+                "Het hormoonstaafje"
+              ],
+              "juiste_antwoorden": [0, 2, 4, 5],
+              "uitleg": "De pil, prikpil, hormoonring en het hormoonstaafje zijn hormonale middelen. Het condoom en het pessarium zijn barrièremiddelen die geen hormonen bevatten. Let op: de pleisterpil is ook hormonaal, maar staat niet in deze lijst."
+            },
+            {
+              "id": 85,
+              "type": "volgorde",
+              "vraag": "Zet de anticonceptiemiddelen in volgorde van meest naar minst betrouwbaar bij typisch gebruik.",
+              "opties": {
+                "A": "Condoom",
+                "B": "Hormoonstaafje",
+                "C": "De pil",
+                "D": "Pessarium"
+              },
+              "juiste_antwoord": "1:B, 2:C, 3:A, 4:D",
+              "uitleg": "Het hormoonstaafje is het meest betrouwbaar (je kunt het niet vergeten), gevolgd door de pil (zeer betrouwbaar maar je moet er dagelijks aan denken). Het condoom is minder betrouwbaar bij typisch gebruik (kan scheuren of verkeerd gebruikt worden). Het pessarium is het minst betrouwbaar van deze vier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 7,
+      "leerdoel_titel": "Begrippen",
+      "paragraaf": "Les 1 en 2",
+      "uitleg_tekst": "Alle belangrijke biologische begrippen uit hoofdstuk 11 over seksualiteit, gegroepeerd per onderwerp.",
+      "subdoelen": [
+        {
+          "subdoel_id": "7.1",
+          "subdoel_titel": "Begrippen puberteit en geslachtskenmerken",
+          "uitleg_tekst": "Kernbegrippen: primaire geslachtskenmerken, secundaire geslachtskenmerken, puberteit, testosteron, oestrogeen.",
+          "vragen": [
+            {
+              "id": 86,
+              "type": "invullen",
+              "vraag": "De levensfase waarin je lichaam verandert van kind naar volwassene onder invloed van hormonen heet de ...",
+              "juiste_antwoord": "puberteit",
+              "uitleg": "De puberteit is de periode waarin het lichaam verandert van kind naar volwassene. Dit wordt gestuurd door hormonen: testosteron bij jongens en oestrogeen bij meisjes."
+            },
+            {
+              "id": 87,
+              "type": "invullen",
+              "vraag": "Kenmerken die al aanwezig zijn bij de geboorte en het geslacht bepalen, zoals de penis of vagina, heten ... geslachtskenmerken.",
+              "juiste_antwoord": "primaire",
+              "uitleg": "Primaire geslachtskenmerken zijn aanwezig vanaf de geboorte en zijn direct gerelateerd aan de voortplantingsorganen. Voorbeelden: penis, teelballen (man) en vagina, eierstokken (vrouw)."
+            },
+            {
+              "id": 88,
+              "type": "multiple_choice",
+              "vraag": "Welk begrippenpaar hoort bij elkaar?",
+              "opties": [
+                "Testosteron — eierstokken",
+                "Oestrogeen — teelballen",
+                "Testosteron — teelballen",
+                "Oestrogeen — bijballen"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Testosteron wordt geproduceerd in de teelballen (mannelijk hormoon). Oestrogeen wordt geproduceerd in de eierstokken (vrouwelijk hormoon). De bijballen slaan zaadcellen op maar produceren geen hormonen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.2",
+          "subdoel_titel": "Begrippen mannelijke geslachtsorganen",
+          "uitleg_tekst": "Kernbegrippen: teelballen, bijballen, zaadleiders, zaadblaasjes, prostaat, sperma, zaadkanaaltjes.",
+          "vragen": [
+            {
+              "id": 89,
+              "type": "invullen",
+              "vraag": "Het mengsel van zaadcellen, vloeistof uit de zaadblaasjes en prostaatsap heet ...",
+              "juiste_antwoord": "sperma",
+              "uitleg": "Sperma is het mengsel dat bij een zaadlozing vrijkomt. Het bestaat uit zaadcellen (uit de teelballen), voedingsvloeistof (uit de zaadblaasjes) en prostaatsap (uit de prostaat)."
+            },
+            {
+              "id": 90,
+              "type": "invullen",
+              "vraag": "De organen waar zaadcellen worden opgeslagen en verder rijpen nadat ze geproduceerd zijn, heten de ...",
+              "juiste_antwoord": "bijballen",
+              "uitleg": "De bijballen liggen tegen de teelballen aan en slaan de geproduceerde zaadcellen op. Hier rijpen de zaadcellen verder tot ze volwassen zijn en klaar zijn voor de zaadlozing."
+            },
+            {
+              "id": 91,
+              "type": "multiple_choice",
+              "vraag": "Wat is het verschil tussen teelballen en bijballen?",
+              "opties": [
+                "Teelballen slaan zaadcellen op, bijballen produceren ze",
+                "Teelballen produceren zaadcellen, bijballen slaan ze op",
+                "Teelballen produceren oestrogeen, bijballen testosteron",
+                "Er is geen verschil, het zijn synoniemen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De teelballen produceren zaadcellen (en testosteron) in de zaadkanaaltjes. De bijballen slaan de zaadcellen op en laten ze verder rijpen. Let op: deze twee worden vaak verwisseld! De teelballen MAKEN, de bijballen BEWAREN."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.3",
+          "subdoel_titel": "Begrippen vrouwelijke geslachtsorganen",
+          "uitleg_tekst": "Kernbegrippen: eierstokken, eileiders, baarmoeder, baarmoederhals, baarmoederslijmvlies, vagina, clitoris.",
+          "vragen": [
+            {
+              "id": 92,
+              "type": "invullen",
+              "vraag": "De buizen die de rijpe eicel opvangen en naar de baarmoeder transporteren heten de ...",
+              "juiste_antwoord": "eileiders",
+              "uitleg": "De eileiders hebben een trechtervormig uiteinde dat de rijpe eicel opvangt na de eisprong. In de eileider kan ook de bevruchting plaatsvinden."
+            },
+            {
+              "id": 93,
+              "type": "invullen",
+              "vraag": "De laag weefsel aan de binnenkant van de baarmoeder die elke cyclus wordt opgebouwd en bij de menstruatie wordt afgestoten, heet het ...",
+              "juiste_antwoord": "baarmoederslijmvlies",
+              "uitleg": "Het baarmoederslijmvlies wordt elke cyclus opgebouwd onder invloed van hormonen, klaar voor een mogelijke innesteling van een bevruchte eicel. Als er geen bevruchting plaatsvindt, wordt het afgestoten: dat is de menstruatie."
+            },
+            {
+              "id": 94,
+              "type": "multiple_choice",
+              "vraag": "Wat is de baarmoederhals?",
+              "opties": [
+                "Het bovenste deel van de baarmoeder waar de eileiders aansluiten",
+                "De spierwand van de baarmoeder",
+                "De smalle doorgang tussen de baarmoeder en de vagina",
+                "Een ander woord voor de eileider"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De baarmoederhals (cervix) is de smalle doorgang die de baarmoeder verbindt met de vagina. De baarmoederhals produceert slijm dat de baarmoeder beschermt. Het bovenste deel van de baarmoeder heet de fundus."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.4",
+          "subdoel_titel": "Begrippen geslachtscellen en hormonen",
+          "uitleg_tekst": "Kernbegrippen: zaadcel, eicel, eisprong, bevruchting, hypothalamus, hypofyse, follikel.",
+          "vragen": [
+            {
+              "id": 95,
+              "type": "invullen",
+              "vraag": "Het blaasje in de eierstok waarin een eicel rijpt, heet een ...",
+              "juiste_antwoord": "follikel",
+              "uitleg": "Een follikel is een met vocht gevuld blaasje in de eierstok waarin een eicel rijpt. Bij de eisprong barst het follikel open en komt de rijpe eicel vrij."
+            },
+            {
+              "id": 96,
+              "type": "invullen",
+              "vraag": "De versmelting van een zaadcel met een eicel noemen we de ...",
+              "juiste_antwoord": "bevruchting",
+              "uitleg": "Bij de bevruchting dringt een zaadcel de eicel binnen en versmelten de kernen van beide cellen. Dit vindt meestal plaats in de eileider. De bevruchte eicel reist vervolgens naar de baarmoeder."
+            },
+            {
+              "id": 97,
+              "type": "multiple_choice",
+              "vraag": "Wat is de juiste volgorde van de hormoonketen?",
+              "opties": [
+                "Hypofyse → hypothalamus → geslachtsorganen",
+                "Geslachtsorganen → hypofyse → hypothalamus",
+                "Hypothalamus → hypofyse → geslachtsorganen",
+                "Hypothalamus → geslachtsorganen → hypofyse"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De hormoonketen begint bij de hypothalamus (in de hersenen), die de hypofyse aanstuurt, die op haar beurt hormonen naar de geslachtsorganen stuurt. Let op: het is NIET de hypofyse die de hypothalamus aanstuurt, maar andersom."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.5",
+          "subdoel_titel": "Begrippen menstruatiecyclus en anticonceptie",
+          "uitleg_tekst": "Kernbegrippen: menstruatie, menstruatiecyclus, vruchtbare periode, anticonceptie, SOA, barrièremiddel, hormonaal middel.",
+          "vragen": [
+            {
+              "id": 98,
+              "type": "invullen",
+              "vraag": "Een ziekte die wordt overgedragen via seksueel contact noemen we een ... (afkorting).",
+              "juiste_antwoord": "SOA",
+              "uitleg": "SOA staat voor Seksueel Overdraagbare Aandoening. Voorbeelden zijn chlamydia, gonorroe en hiv. Het condoom is het enige anticonceptiemiddel dat ook beschermt tegen SOA's."
+            },
+            {
+              "id": 99,
+              "type": "invullen",
+              "vraag": "De dagen rond de eisprong waarop een vrouw zwanger kan raken, noemen we de ...",
+              "juiste_antwoord": "vruchtbare periode",
+              "uitleg": "De vruchtbare periode ligt rond de eisprong (dag 12-16 bij een cyclus van 28 dagen). Een eicel leeft circa 24 uur, maar zaadcellen kunnen tot 5 dagen overleven, waardoor de vruchtbare periode meerdere dagen beslaat."
+            },
+            {
+              "id": 100,
+              "type": "multiple_choice",
+              "vraag": "Wat is het verschil tussen een barrièremiddel en een hormonaal anticonceptiemiddel?",
+              "opties": [
+                "Barrièremiddelen werken langer dan hormonale middelen in het lichaam",
+                "Hormonale middelen beschermen tegen SOA's, barrièremiddelen alleen tegen zwangerschap",
+                "Barrièremiddelen blokkeren fysiek, hormonale middelen beïnvloeden hormonen",
+                "Er is geen verschil in werking, alleen in hoe je ze gebruikt"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Barrièremiddelen (condoom, pessarium) vormen een fysieke blokkade die zaadcellen tegenhoudt. Hormonale middelen (pil, prikpil, hormoonstaafje) beïnvloeden de hormoonhuishouding om bijv. de eisprong te voorkomen. Let op: het zijn juist de barrièremiddelen (condoom) die tegen SOA's beschermen, niet de hormonale middelen!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
