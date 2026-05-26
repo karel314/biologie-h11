@@ -8,7 +8,17 @@ const ASSETS = [
   './manifest.json',
   './data/vragen.json',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './images/vrouwelijke_geslachtsorganen_vooraanzicht.png',
+  './images/hormonen_vrouw.png',
+  './images/menstruatiecyclus.png',
+  './images/eicel_ontwikkeling.png',
+  './images/hormonen_diagram.png',
+  './images/vrouwelijke_geslachtsorganen_zijaanzicht.png',
+  './images/mannelijke_geslachtsorganen_vooraanzicht.png',
+  './images/zaadcel_bouw.png',
+  './images/geslachtscellen.png',
+  './images/mannelijke_geslachtsorganen_zijaanzicht.png'
 ];
 
 self.addEventListener('install', e => {
