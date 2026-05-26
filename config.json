@@ -1,0 +1,151 @@
+{
+  "appId": "biologie-h11",
+  "title": "Biologie H11",
+  "shortName": "Bio H11",
+  "subtitle": "Seksualiteit",
+  "description": "Quiz app voor Biologie H11 - Seksualiteit",
+  "studentName": "Willem",
+  "greeting": "Hoi Willem! Klaar om te stampen?",
+  "lang": "nl",
+  "storageKey": "bio-h11-progress",
+  "theme": {
+    "primary": "#16a34a",
+    "light": "#4ade80",
+    "dark": "#15803d",
+    "bg": "#f0fdf4",
+    "bgAccent": "#dcfce7"
+  },
+  "manifest": {
+    "name": "Biologie H11 - Quiz",
+    "short_name": "Bio H11",
+    "description": "Quiz app voor Biologie H11 - Seksualiteit",
+    "theme_color": "#16a34a",
+    "background_color": "#f0fdf4"
+  },
+  "themeColorMeta": "#16a34a",
+  "appleMobileWebAppTitle": "Bio H11",
+  "gridColumns": "1fr 1fr 1fr",
+  "dataFiles": ["data/vragen.json"],
+  "badges": {
+    "1": { "name": "Puberteitskenner", "emoji": "🔬" },
+    "2": { "name": "Mannelijk Stelsel Pro", "emoji": "🩺" },
+    "3": { "name": "Vrouwelijk Stelsel Pro", "emoji": "🌸" },
+    "4": { "name": "Cellenexpert", "emoji": "🧬" },
+    "5": { "name": "Hormoonmeester", "emoji": "⚗️" },
+    "6": { "name": "Anticonceptie-adviseur", "emoji": "🛡️" },
+    "7": { "name": "Begrippenbaas", "emoji": "📖" }
+  },
+  "correctMsgs": [
+    "Je kent je geslachtskenmerken als de beste!",
+    "Slimmer dan een bioloog in een laboratorium!",
+    "Je weet meer over hormonen dan de hypothalamus zelf!",
+    "Daar kan geen zaadcel tegenop zwemmen!",
+    "De menstruatiecyclus heeft geen geheimen meer voor jou!",
+    "Je kent de route van de eicel als je eigen broekzak!",
+    "De anticonceptie-expert is geboren!",
+    "Je weet meer over de hypofyse dan de meeste artsen!",
+    "Correct! Je DNA zit vol biologiekennis!",
+    "Testosteron of oestrogeen? Jij weet het verschil!",
+    "Je kent de bijbal beter dan de bijbal zichzelf!",
+    "Knap! Je weet precies waar de prostaat zit!",
+    "Je navigeert door het voortplantingsstelsel als een professional!",
+    "Beter dan een gynaecoloog in opleiding!",
+    "Je weet alles over secundaire geslachtskenmerken!",
+    "Top! De eileiders hebben geen geheimen voor jou!",
+    "Je bent een echte follikel-expert!",
+    "Prostaatsap, zaadblaasjes, zaadleiders — jij kent ze allemaal!",
+    "Je scoort hoger dan het oestrogeenniveau rond de eisprong!",
+    "Sterker dan een baarmoederwand!",
+    "Je hebt de baard in de keel van de biologiekennis!",
+    "Wow, dat ging sneller dan een zaadcel naar de eicel!",
+    "De puberteit heeft geen geheimen meer voor jou!",
+    "Je bent klaar voor het proefwerk, dokter Willem!",
+    "Je kent het verschil tussen primair en secundair feilloos!",
+    "Als een echte embryoloog!",
+    "Je retentie van biologiekennis is indrukwekkend!",
+    "Beter dan een leerboek!",
+    "Je hebt meer kennis dan een heel ziekenhuis!",
+    "Dat antwoord was zo scherp als een microscoop!",
+    "De clitoris, de vulva, de baarmoeder — jij weet het allemaal!",
+    "Je maakt biologie-geschiedenis!",
+    "Geen twijfel, jij kent je voortplantingsleer!",
+    "De zwellichamen buigen voor jouw kennis!",
+    "Je bent zowel breedte- als dieptekenner van hoofdstuk 11!"
+  ],
+  "wrongMsgs": [
+    "Die kennis moet nog even rijpen, net als een eicel in het follikel...",
+    "Zelfs de hypothalamus stuurt soms het verkeerde signaal!",
+    "Foutje! Maar je leert sneller dan een zaadcel zwemt.",
+    "Oeps! Maar oefening baart een biologiekenner.",
+    "Niet getreurd, ook de menstruatiecyclus heeft ups en downs!",
+    "Geen stress, het voortplantingsstelsel is ook complex!",
+    "Foutje! Maar oefening baart een dokter.",
+    "Dat antwoord ging de verkeerde eileider in!",
+    "Je zit even in het diepe, maar je komt boven!",
+    "Niet erg, zelfs biologen slaan weleens de plank mis.",
+    "Au! Maar de volgende vraag gaat beter.",
+    "Zelfs de beste artsen moesten ooit studeren!",
+    "Die kennis komt nog, net als de puberteit!",
+    "Hmm, dat was meer bijbal dan teelbal.",
+    "Nog eentje oefenen en je hebt het!",
+    "Bijna! Net als een bijna-bevruchting.",
+    "De eierstokken hadden het ook moeilijk gevonden!",
+    "Dat antwoord had een extra hormoon nodig.",
+    "Niet opgeven! Kennis groeit net als een embryo!",
+    "Je leert sneller dan een foetus zich ontwikkelt!",
+    "Fout, maar je doorzettingsvermogen is sterker dan een baarmoederwand!",
+    "Ach, morgen weet je het wel!",
+    "Dat was een kleine misser, maar je komt terug!",
+    "Zelfs Darwin moest ooit beginnen.",
+    "Je zit op het verkeerde chromosoom, maar je vindt de weg!",
+    "Het goede antwoord lag vlakbij, achter de placenta!",
+    "Oeps! Maar elke fout is een les.",
+    "Die zaadcel zwom even verkeerd, maar we gaan door!",
+    "Niet het juiste antwoord, maar wel lef!",
+    "De biologieboeken hadden ook herzieningen nodig!",
+    "Foutje bedankt! Lees de uitleg goed.",
+    "Net niet! Maar je komt er dichterbij.",
+    "Dat was een koninklijke misser!",
+    "Geen paniek, de volgende vraag is jouw doorbraak!",
+    "Mis! Maar je bent nog steeds in het spel."
+  ],
+  "resultsMsgs": {
+    "perfect": [
+      "Absoluut briljant! Je kent hoofdstuk 11 als je eigen lichaam!",
+      "Perfecte score! De biologieleraar gaat steil achterover!"
+    ],
+    "great": [
+      "Uitstekend! Je beheerst de stof als een echte bioloog!",
+      "Geweldig resultaat! Nog even de puntjes op de i."
+    ],
+    "good": [
+      "Goed bezig! Nog een paar rondes en je haalt een 10!",
+      "Prima score! Focus op de rode vragen en je bent er bijna."
+    ],
+    "okay": [
+      "Een goede start! Herhaal de zwakke leerdoelen.",
+      "Je bent op weg! Probeer de flashcards voor de moeilijke topics."
+    ],
+    "low": [
+      "Niet getreurd! Het menselijk lichaam is ook niet in een dag geleerd.",
+      "Dit is je startpunt. Gebruik de flashcards en probeer opnieuw!"
+    ]
+  },
+  "confettiColors": ["#16a34a", "#22c55e", "#f59e0b", "#ef4444", "#3b82f6", "#ec4899"],
+  "uiStrings": {
+    "correct": "Goed!",
+    "wrong": "Helaas, fout!",
+    "next": "Volgende",
+    "seeResults": "Bekijk resultaten",
+    "stop": "Stoppen",
+    "confirmStop": "Wil je de quiz stoppen? Je voortgang wordt opgeslagen.",
+    "confirmReset": "Weet je zeker dat je alle voortgang wilt wissen? Dit kan niet ongedaan worden.",
+    "noProgress": "Begin met een quiz om je voortgang te zien!",
+    "typeLabels": {
+      "multiple_choice": "Meerkeuze",
+      "choose_all_that_apply": "Meerdere antwoorden",
+      "invullen": "Invullen",
+      "volgorde": "Volgorde"
+    }
+  }
+}

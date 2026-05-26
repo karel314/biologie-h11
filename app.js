@@ -1,7 +1,8 @@
-// Biologie H11 - Quiz App
+// Quiz Platform Engine - Config-driven
 'use strict';
 
 // ── State ──
+let CONFIG = null;
 let db = null;
 let allQuestions = [];
 let quizQuestions = [];
@@ -16,126 +17,32 @@ let flashcards = [];
 let flashIndex = 0;
 let flashFlipped = false;
 
-const STORAGE_KEY = 'bio-h11-progress';
 const LETTERS = 'ABCDEFGHIJ';
 
-// ── Badge definitions ──
-const BADGES = {
-  1: { name: 'Puberteitskenner', emoji: '\u{1F52C}' },
-  2: { name: 'Mannelijk Stelsel Pro', emoji: '\u{1FA7A}' },
-  3: { name: 'Vrouwelijk Stelsel Pro', emoji: '\u{1F338}' },
-  4: { name: 'Cellenexpert', emoji: '\u{1F9EC}' },
-  5: { name: 'Hormoonmeester', emoji: '\u{2697}\uFE0F' },
-  6: { name: 'Anticonceptie-adviseur', emoji: '\u{1F6E1}\uFE0F' },
-  7: { name: 'Begrippenbaas', emoji: '\u{1F4D6}' }
-};
-
-// ── Encouragement messages ──
-const CORRECT_MSGS = [
-  'Je kent je geslachtskenmerken als de beste!',
-  'Slimmer dan een bioloog in een laboratorium!',
-  'Je weet meer over hormonen dan de hypothalamus zelf!',
-  'Daar kan geen zaadcel tegenop zwemmen!',
-  'De menstruatiecyclus heeft geen geheimen meer voor jou!',
-  'Je kent de route van de eicel als je eigen broekzak!',
-  'De anticonceptie-expert is geboren!',
-  'Je weet meer over de hypofyse dan de meeste artsen!',
-  'Correct! Je DNA zit vol biologiekennis!',
-  'Testosteron of oestrogeen? Jij weet het verschil!',
-  'Je kent de bijbal beter dan de bijbal zichzelf!',
-  'Knap! Je weet precies waar de prostaat zit!',
-  'Je navigeert door het voortplantingsstelsel als een professional!',
-  'Beter dan een gynaecoloog in opleiding!',
-  'Je weet alles over secundaire geslachtskenmerken!',
-  'Top! De eileiders hebben geen geheimen voor jou!',
-  'Je bent een echte follikel-expert!',
-  'Prostaatsap, zaadblaasjes, zaadleiders — jij kent ze allemaal!',
-  'Je scoort hoger dan het oestrogeenniveau rond de eisprong!',
-  'Sterker dan een baarmoederwand!',
-  'Je hebt de baard in de keel van de biologiekennis!',
-  'Wow, dat ging sneller dan een zaadcel naar de eicel!',
-  'De puberteit heeft geen geheimen meer voor jou!',
-  'Je bent klaar voor het proefwerk, dokter Willem!',
-  'Je kent het verschil tussen primair en secundair feilloos!',
-  'Als een echte embryoloog!',
-  'Je retentie van biologiekennis is indrukwekkend!',
-  'Beter dan een leerboek!',
-  'Je hebt meer kennis dan een heel ziekenhuis!',
-  'Dat antwoord was zo scherp als een microscoop!',
-  'De clitoris, de vulva, de baarmoeder — jij weet het allemaal!',
-  'Je maakt biologie-geschiedenis!',
-  'Geen twijfel, jij kent je voortplantingsleer!',
-  'De zwellichamen buigen voor jouw kennis!',
-  'Je bent zowel breedte- als dieptekenner van hoofdstuk 11!'
-];
-
-const WRONG_MSGS = [
-  'Die kennis moet nog even rijpen, net als een eicel in het follikel...',
-  'Zelfs de hypothalamus stuurt soms het verkeerde signaal!',
-  'Foutje! Maar je leert sneller dan een zaadcel zwemt.',
-  'Oeps! Maar oefening baart een biologiekenner.',
-  'Niet getreurd, ook de menstruatiecyclus heeft ups en downs!',
-  'Geen stress, het voortplantingsstelsel is ook complex!',
-  'Foutje! Maar oefening baart een dokter.',
-  'Dat antwoord ging de verkeerde eileider in!',
-  'Je zit even in het diepe, maar je komt boven!',
-  'Niet erg, zelfs biologen slaan weleens de plank mis.',
-  'Au! Maar de volgende vraag gaat beter.',
-  'Zelfs de beste artsen moesten ooit studeren!',
-  'Die kennis komt nog, net als de puberteit!',
-  'Hmm, dat was meer bijbal dan teelbal.',
-  'Nog eentje oefenen en je hebt het!',
-  'Bijna! Net als een bijna-bevruchting.',
-  'De eierstokken hadden het ook moeilijk gevonden!',
-  'Dat antwoord had een extra hormoon nodig.',
-  'Niet opgeven! Kennis groeit net als een embryo!',
-  'Je leert sneller dan een foetus zich ontwikkelt!',
-  'Fout, maar je doorzettingsvermogen is sterker dan een baarmoederwand!',
-  'Ach, morgen weet je het wel!',
-  'Dat was een kleine misser, maar je komt terug!',
-  'Zelfs Darwin moest ooit beginnen.',
-  'Je zit op het verkeerde chromosoom, maar je vindt de weg!',
-  'Het goede antwoord lag vlakbij, achter de placenta!',
-  'Oeps! Maar elke fout is een les.',
-  'Die zaadcel zwom even verkeerd, maar we gaan door!',
-  'Niet het juiste antwoord, maar wel lef!',
-  'De biologieboeken hadden ook herzieningen nodig!',
-  'Foutje bedankt! Lees de uitleg goed.',
-  'Net niet! Maar je komt er dichterbij.',
-  'Dat was een koninklijke misser!',
-  'Geen paniek, de volgende vraag is jouw doorbraak!',
-  'Mis! Maar je bent nog steeds in het spel.'
-];
-
-const RESULTS_MSGS = {
-  perfect: [
-    'Absoluut briljant! Je kent hoofdstuk 11 als je eigen lichaam!',
-    'Perfecte score! De biologieleraar gaat steil achterover!'
-  ],
-  great: [
-    'Uitstekend! Je beheerst de stof als een echte bioloog!',
-    'Geweldig resultaat! Nog even de puntjes op de i.'
-  ],
-  good: [
-    'Goed bezig! Nog een paar rondes en je haalt een 10!',
-    'Prima score! Focus op de rode vragen en je bent er bijna.'
-  ],
-  okay: [
-    'Een goede start! Herhaal de zwakke leerdoelen.',
-    'Je bent op weg! Probeer de flashcards voor de moeilijke topics.'
-  ],
-  low: [
-    'Niet getreurd! Het menselijk lichaam is ook niet in een dag geleerd.',
-    'Dit is je startpunt. Gebruik de flashcards en probeer opnieuw!'
-  ]
-};
-
 // ── Init ──
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const resp = await fetch('config.json');
+    CONFIG = await resp.json();
+    applyTheme(CONFIG.theme);
+    await init();
+  } catch (e) {
+    console.error('Failed to load config:', e);
+  }
+});
+
+function applyTheme(theme) {
+  const r = document.documentElement.style;
+  r.setProperty('--purple', theme.primary);
+  r.setProperty('--purple-light', theme.light);
+  r.setProperty('--purple-dark', theme.dark);
+  r.setProperty('--purple-bg', theme.bg);
+}
 
 async function init() {
   try {
-    const resp = await fetch('data/vragen.json');
+    const dataFile = (CONFIG.dataFiles && CONFIG.dataFiles[0]) || 'data/vragen.json';
+    const resp = await fetch(dataFile);
     db = await resp.json();
     flattenQuestions();
     setupConfigScreen();
@@ -147,7 +54,6 @@ async function init() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
-  // Count selector
   document.querySelectorAll('#count-selector .btn-option').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('#count-selector .btn-option').forEach(b => b.classList.remove('selected'));
@@ -177,7 +83,7 @@ function flattenQuestions() {
 // ── Progress helpers ──
 function getProgress() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultProgress();
+    return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || defaultProgress();
   } catch { return defaultProgress(); }
 }
 
@@ -186,12 +92,12 @@ function defaultProgress() {
 }
 
 function saveProgress(p) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+  localStorage.setItem(CONFIG.storageKey, JSON.stringify(p));
 }
 
 function resetProgress() {
-  if (!confirm('Weet je zeker dat je alle voortgang wilt wissen? Dit kan niet ongedaan worden.')) return;
-  localStorage.removeItem(STORAGE_KEY);
+  if (!confirm(CONFIG.uiStrings.confirmReset)) return;
+  localStorage.removeItem(CONFIG.storageKey);
   updateBadgeShelf();
   updateHomeStats();
   renderProgressScreen();
@@ -262,11 +168,9 @@ function startQuiz() {
   selectedLeerdoelen = checked.length > 0 ? checked : db.leerdoelen.map(ld => ld.leerdoel_id);
 
   const pool = allQuestions.filter(q => selectedLeerdoelen.includes(q.leerdoel_id));
-  // Sort by priority (weak first), random tiebreak
   const scored = pool.map(q => ({ q, priority: getQuestionPriority(q.id), rand: Math.random() }));
   scored.sort((a, b) => a.priority - b.priority || a.rand - b.rand);
   quizQuestions = scored.slice(0, selectedCount).map(s => s.q);
-  // Shuffle for variety
   for (let i = quizQuestions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [quizQuestions[i], quizQuestions[j]] = [quizQuestions[j], quizQuestions[i]];
@@ -281,8 +185,7 @@ function startQuiz() {
 // ── Exit quiz ──
 function exitQuiz() {
   if (answers.length > 0) {
-    if (!confirm('Wil je de quiz stoppen? Je voortgang wordt opgeslagen.')) return;
-    saveQuizProgress();
+    if (!confirm(CONFIG.uiStrings.confirmStop)) return;
   }
   showScreen('home');
 }
@@ -294,15 +197,12 @@ function renderQuestion() {
   const q = quizQuestions[currentIndex];
   const total = quizQuestions.length;
 
-  // Progress bar
   document.getElementById('quiz-progress-text').textContent = `${currentIndex + 1} / ${total}`;
   document.getElementById('quiz-progress-fill').style.width = `${((currentIndex) / total) * 100}%`;
   document.getElementById('quiz-leerdoel-badge').textContent = q.leerdoel_titel;
 
-  // Question
   document.getElementById('question-text').textContent = q.vraag;
 
-  // Image
   const imgContainer = document.getElementById('question-image-container');
   imgContainer.innerHTML = '';
   if (q.afbeelding) {
@@ -313,11 +213,9 @@ function renderQuestion() {
     imgContainer.appendChild(img);
   }
 
-  // Type badge
-  const typeLabels = { multiple_choice: 'Meerkeuze', choose_all_that_apply: 'Meerdere antwoorden', invullen: 'Invullen', volgorde: 'Volgorde' };
-  document.getElementById('question-type-badge').textContent = typeLabels[q.type] || q.type;
+  const tl = CONFIG.uiStrings.typeLabels;
+  document.getElementById('question-type-badge').textContent = tl[q.type] || q.type;
 
-  // Render options by type
   const container = document.getElementById('options-container');
   container.innerHTML = '';
 
@@ -326,7 +224,6 @@ function renderQuestion() {
   else if (q.type === 'invullen') renderInvullen(q, container);
   else if (q.type === 'volgorde') renderVolgorde(q, container);
 
-  // Hide feedback
   document.getElementById('feedback-panel').style.display = 'none';
 }
 
@@ -361,7 +258,7 @@ function submitMC(index) {
 function renderCATA(q, container) {
   const hint = document.createElement('div');
   hint.className = 'cata-hint';
-  hint.textContent = 'Selecteer alle juiste antwoorden';
+  hint.textContent = CONFIG.uiStrings.selectAll || 'Selecteer alle juiste antwoorden';
   container.appendChild(hint);
 
   q.opties.forEach((opt, i) => {
@@ -374,7 +271,7 @@ function renderCATA(q, container) {
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-multi';
-  submit.textContent = 'Controleer';
+  submit.textContent = CONFIG.uiStrings.check || 'Controleer';
   submit.addEventListener('click', () => submitCATA());
   container.appendChild(submit);
 }
@@ -420,7 +317,7 @@ function renderInvullen(q, container) {
   const input = document.createElement('input');
   input.type = 'text';
   input.className = 'invul-input';
-  input.placeholder = 'Typ je antwoord...';
+  input.placeholder = CONFIG.uiStrings.typAnswer || 'Typ je antwoord...';
   input.autocomplete = 'off';
   input.autocapitalize = 'off';
 
@@ -439,7 +336,7 @@ function renderInvullen(q, container) {
 }
 
 function normalize(str) {
-  return str.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ');
+  return str.toLowerCase().trim().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, ' ');
 }
 
 function levenshtein(a, b) {
@@ -456,7 +353,6 @@ function checkInvullen(userAnswer, correctAnswer) {
   const u = normalize(userAnswer);
   const c = normalize(correctAnswer);
   if (u === c) return true;
-  // For single words, allow Levenshtein 1
   if (!c.includes(' ') && !u.includes(' ')) return levenshtein(u, c) <= 1;
   return false;
 }
@@ -476,7 +372,7 @@ function submitInvullen(input) {
   if (!isCorrect) {
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = `Juiste antwoord: ${q.juiste_antwoord}`;
+    correctDiv.textContent = `${CONFIG.uiStrings.correctAnswer || 'Juiste antwoord'}: ${q.juiste_antwoord}`;
     document.getElementById('options-container').appendChild(correctDiv);
   }
 
@@ -485,15 +381,12 @@ function submitInvullen(input) {
 }
 
 // ── Volgorde ──
-// Helper: parse "1:C, 2:A, 3:B" → ['C', 'A', 'B']
 function parseVolgordeAntwoord(str) {
   return str.split(',').map(s => s.trim().split(':')[1].trim());
 }
 
 function renderVolgorde(q, container) {
-  // opties is an object {A: "text", B: "text", ...}
   const entries = Object.entries(q.opties).map(([letter, text]) => ({ letter, text }));
-  // Shuffle
   for (let i = entries.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [entries[i], entries[j]] = [entries[j], entries[i]];
@@ -503,7 +396,7 @@ function renderVolgorde(q, container) {
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-volgorde';
-  submit.textContent = 'Controleer volgorde';
+  submit.textContent = CONFIG.uiStrings.checkOrder || 'Controleer volgorde';
   submit.addEventListener('click', () => submitVolgorde());
   container.appendChild(submit);
 }
@@ -557,10 +450,10 @@ function submitVolgorde() {
   document.querySelector('.btn-submit-volgorde').style.display = 'none';
 
   if (!isCorrect) {
-    const correctText = correctLetters.map((letter, i) => `${i + 1}. ${q.opties[letter]}`).join(' \u2192 ');
+    const correctText = correctLetters.map((letter, i) => `${i + 1}. ${q.opties[letter]}`).join(' → ');
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = 'Juiste volgorde: ' + correctText;
+    correctDiv.textContent = (CONFIG.uiStrings.correctOrder || 'Juiste volgorde') + ': ' + correctText;
     correctDiv.style.marginTop = '8px';
     correctDiv.style.fontSize = '0.85rem';
     correctDiv.style.lineHeight = '1.5';
@@ -588,15 +481,15 @@ function showFeedback(isCorrect, q) {
   panel.style.display = 'block';
 
   const result = document.getElementById('feedback-result');
-  result.textContent = isCorrect ? 'Goed!' : 'Helaas, fout!';
+  result.textContent = isCorrect ? CONFIG.uiStrings.correct : CONFIG.uiStrings.wrong;
   result.className = 'feedback-result ' + (isCorrect ? 'correct' : 'wrong');
 
-  const msgs = isCorrect ? CORRECT_MSGS : WRONG_MSGS;
+  const msgs = isCorrect ? CONFIG.correctMsgs : CONFIG.wrongMsgs;
   document.getElementById('feedback-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
   document.getElementById('feedback-explanation').textContent = q.uitleg;
 
   const btn = document.getElementById('btn-next');
-  btn.textContent = currentIndex < quizQuestions.length - 1 ? 'Volgende' : 'Bekijk resultaten';
+  btn.textContent = currentIndex < quizQuestions.length - 1 ? CONFIG.uiStrings.next : CONFIG.uiStrings.seeResults;
 
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -610,11 +503,6 @@ function nextQuestion() {
   } else {
     showResults();
   }
-}
-
-// ── Save quiz progress on exit ──
-function saveQuizProgress() {
-  // Already saved per-question in recordAnswer
 }
 
 // ── Results ──
@@ -643,7 +531,7 @@ function showResults() {
   else if (pct >= 80) msgKey = 'great';
   else if (pct >= 60) msgKey = 'good';
   else if (pct >= 40) msgKey = 'okay';
-  const msgs = RESULTS_MSGS[msgKey];
+  const msgs = CONFIG.resultsMsgs[msgKey];
   document.getElementById('results-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
 
   const breakdown = document.getElementById('results-leerdoel-breakdown');
@@ -681,12 +569,12 @@ function showResults() {
       else if (q.type === 'invullen') correctText = q.juiste_antwoord;
       else if (q.type === 'volgorde') {
         const letters = parseVolgordeAntwoord(q.juiste_antwoord);
-        correctText = letters.map((l, i) => `${i + 1}. ${q.opties[l]}`).join(' \u2192 ');
+        correctText = letters.map((l, i) => `${i + 1}. ${q.opties[l]}`).join(' → ');
       }
       missed.innerHTML += `
         <div class="missed-item">
           <div class="missed-q">${q.vraag}</div>
-          <div class="missed-a">Antwoord: ${correctText}</div>
+          <div class="missed-a">${CONFIG.uiStrings.answer || 'Antwoord'}: ${correctText}</div>
         </div>
       `;
     }
@@ -717,7 +605,7 @@ function checkNewBadges() {
     container.style.display = 'block';
     list.innerHTML = '';
     for (const bid of newBadges) {
-      const b = BADGES[bid];
+      const b = CONFIG.badges[bid];
       list.innerHTML += `<div class="new-badge-item"><div class="new-badge-emoji">${b.emoji}</div><div class="new-badge-name">${b.name}</div></div>`;
     }
   } else {
@@ -729,7 +617,7 @@ function updateBadgeShelf() {
   const p = getProgress();
   const shelf = document.getElementById('badge-shelf-list');
   shelf.innerHTML = '';
-  for (const [id, b] of Object.entries(BADGES)) {
+  for (const [id, b] of Object.entries(CONFIG.badges)) {
     const earned = p.badges[id]?.earned;
     shelf.innerHTML += `
       <div class="badge-item ${earned ? 'earned' : 'locked'}" ${earned ? `onclick="showBadgePopup(${id})"` : ''}>
@@ -741,11 +629,11 @@ function updateBadgeShelf() {
 }
 
 function showBadgePopup(id) {
-  const b = BADGES[id];
+  const b = CONFIG.badges[id];
   const p = getProgress();
   document.getElementById('badge-popup-icon').textContent = b.emoji;
   document.getElementById('badge-popup-title').textContent = b.name;
-  document.getElementById('badge-popup-desc').textContent = `Verdiend op ${p.badges[id]?.date || 'onbekend'}`;
+  document.getElementById('badge-popup-desc').textContent = `${CONFIG.uiStrings.earnedOn || 'Verdiend op'} ${p.badges[id]?.date || 'onbekend'}`;
   document.getElementById('badge-overlay').style.display = 'flex';
 }
 
@@ -758,11 +646,11 @@ function updateHomeStats() {
   const p = getProgress();
   const el = document.getElementById('home-stats');
   if (p.totalAnswered === 0) {
-    el.textContent = 'Begin met een quiz om je voortgang te zien!';
+    el.textContent = CONFIG.uiStrings.noProgress;
   } else {
     const pct = Math.round((p.totalCorrect / p.totalAnswered) * 100);
     const badgeCount = Object.values(p.badges).filter(b => b.earned).length;
-    el.textContent = `${p.totalAnswered} vragen beantwoord \u2022 ${pct}% goed \u2022 ${badgeCount}/7 badges`;
+    el.textContent = `${p.totalAnswered} vragen beantwoord • ${pct}% goed • ${badgeCount}/${Object.keys(CONFIG.badges).length} badges`;
   }
 }
 
@@ -785,7 +673,7 @@ function renderProgressScreen() {
   list.innerHTML = '';
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
-    const badge = BADGES[ld.leerdoel_id];
+    const badge = CONFIG.badges[ld.leerdoel_id];
     const earned = p.badges[ld.leerdoel_id]?.earned;
     const color = m.pct >= 80 ? 'var(--green)' : m.pct >= 50 ? 'var(--orange)' : m.seen > 0 ? 'var(--red)' : 'var(--gray-border)';
 
@@ -906,7 +794,7 @@ function prevFlashcard() {
 
 // ── Confetti ──
 function spawnConfetti() {
-  const colors = ['#16a34a', '#22c55e', '#f59e0b', '#ef4444', '#3b82f6', '#ec4899'];
+  const colors = CONFIG.confettiColors || ['#2563eb', '#60a5fa', '#f59e0b', '#ef4444', '#22c55e', '#ec4899'];
   for (let i = 0; i < 40; i++) {
     const el = document.createElement('div');
     el.className = 'confetti';

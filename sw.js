@@ -1,23 +1,14 @@
-const CACHE_VERSION = 'bio-h11-v1';
+const CACHE_VERSION = 'biologie-h11-v1';
 const ASSETS = [
   './',
   './index.html',
   './app.js',
   './style.css',
+  './config.json',
   './manifest.json',
   './data/vragen.json',
   './icons/icon-192.png',
-  './icons/icon-512.png',
-  './images/eicel_ontwikkeling.png',
-  './images/geslachtscellen.png',
-  './images/hormonen_diagram.png',
-  './images/hormonen_vrouw.png',
-  './images/mannelijke_geslachtsorganen_vooraanzicht.png',
-  './images/mannelijke_geslachtsorganen_zijaanzicht.png',
-  './images/menstruatiecyclus.png',
-  './images/vrouwelijke_geslachtsorganen_vooraanzicht.png',
-  './images/vrouwelijke_geslachtsorganen_zijaanzicht.png',
-  './images/zaadcel_bouw.png'
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', e => {
