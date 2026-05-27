@@ -230,8 +230,8 @@ function startQuiz() {
   const visibleLeerdoelen = [...document.querySelectorAll('#leerdoel-filter .leerdoel-cb')]
     .filter(row => row.style.display !== 'none')
     .map(row => parseInt(row.querySelector('input').value));
-  const pool = checked.length > 0 ? checked : visibleLeerdoelen;
-  selectedLeerdoelen = pool.length > 0 ? pool : db.leerdoelen.map(ld => ld.leerdoel_id);
+  const selectedPool = checked.length > 0 ? checked : visibleLeerdoelen;
+  selectedLeerdoelen = selectedPool.length > 0 ? selectedPool : db.leerdoelen.map(ld => ld.leerdoel_id);
 
   const pool = allQuestions.filter(q => selectedLeerdoelen.includes(q.leerdoel_id));
   const scored = pool.map(q => ({ q, priority: getQuestionPriority(q.id), rand: Math.random() }));
