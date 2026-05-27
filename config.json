@@ -1,9 +1,9 @@
 {
   "appId": "biologie-h11",
-  "title": "Biologie H11",
-  "shortName": "Bio H11",
-  "subtitle": "Seksualiteit",
-  "description": "Quiz app voor Biologie H11 - Seksualiteit",
+  "title": "Biologie H11 & H12",
+  "shortName": "Bio H11-12",
+  "subtitle": "Seksualiteit & Erfelijkheid",
+  "description": "Quiz app voor Biologie H11 (Seksualiteit) en H12 (Erfelijkheid & DNA)",
   "studentName": "Willem",
   "greeting": "Hoi Willem! Klaar om te stampen?",
   "lang": "nl",
@@ -25,7 +25,7 @@
   "themeColorMeta": "#16a34a",
   "appleMobileWebAppTitle": "Bio H11",
   "gridColumns": "1fr 1fr 1fr",
-  "dataFiles": ["data/vragen.json"],
+  "dataFiles": ["data/vragen.json", "data/vragen_h12.json"],
   "badges": {
     "1": { "name": "Puberteitskenner", "emoji": "🔬" },
     "2": { "name": "Mannelijk Stelsel Pro", "emoji": "🩺" },
@@ -33,7 +33,12 @@
     "4": { "name": "Cellenexpert", "emoji": "🧬" },
     "5": { "name": "Hormoonmeester", "emoji": "⚗️" },
     "6": { "name": "Anticonceptie-adviseur", "emoji": "🛡️" },
-    "7": { "name": "Begrippenbaas", "emoji": "📖" }
+    "7": { "name": "Begrippenbaas", "emoji": "📖" },
+    "8": { "name": "Erfelijkheidskenner", "emoji": "👨‍👩‍👦" },
+    "9": { "name": "DNA-detective", "emoji": "🧬" },
+    "10": { "name": "Kruisingsmeester", "emoji": "🔀" },
+    "11": { "name": "Genetisch puzzelaar", "emoji": "🧩" },
+    "12": { "name": "Evolutie-expert", "emoji": "🌍" }
   },
   "correctMsgs": [
     "Je kent je geslachtskenmerken als de beste!",
@@ -70,7 +75,19 @@
     "Je maakt biologie-geschiedenis!",
     "Geen twijfel, jij kent je voortplantingsleer!",
     "De zwellichamen buigen voor jouw kennis!",
-    "Je bent zowel breedte- als dieptekenner van hoofdstuk 11!"
+    "Je bent zowel breedte- als dieptekenner van hoofdstuk 11!",
+    "Je DNA zit vol met correcte antwoorden!",
+    "Briljant! Je kent het verschil tussen genotype en fenotype feilloos!",
+    "Die kruising was perfect uitgewerkt, geneticus!",
+    "Je bent dominanter dan een dominant allel!",
+    "Chromosomen, allelen, meiose — jij beheerst het allemaal!",
+    "Knap! Zelfs Mendel zou trots op je zijn!",
+    "Je stamboomanalyse is foutloos!",
+    "Die mutatie in je kennis is positief: steeds slimmer!",
+    "Je kent de DNA-basen beter dan je eigen telefoonnummer!",
+    "A-T, C-G — jij koppelt kennis aan correcte antwoorden!",
+    "Je erfelijkheidsleer is van het hoogste niveau!",
+    "Top! Je hebt meer biologische kennis dan een heel laboratorium!"
   ],
   "wrongMsgs": [
     "Die kennis moet nog even rijpen, net als een eicel in het follikel...",
@@ -107,11 +124,20 @@
     "Net niet! Maar je komt er dichterbij.",
     "Dat was een koninklijke misser!",
     "Geen paniek, de volgende vraag is jouw doorbraak!",
-    "Mis! Maar je bent nog steeds in het spel."
+    "Mis! Maar je bent nog steeds in het spel.",
+    "Die allelen zaten even niet mee, maar je komt terug!",
+    "Foutje in de genetische code, maar gelukkig repareerbaar!",
+    "Dat kruisingsschema had een foutje — probeer het nog eens!",
+    "Niet getreurd, zelfs DNA maakt fouten bij het kopiëren!",
+    "Die mutatie in je antwoord was niet gunstig, maar de volgende wel!",
+    "Oeps! Je fenotype voor dit antwoord was even verkeerd.",
+    "Hmm, dat allel was recessief — het goede antwoord komt nog!",
+    "Zelfs de beste genetici moesten ooit leren!",
+    "Je zit op het verkeerde chromosoom, maar je vindt de weg terug!"
   ],
   "resultsMsgs": {
     "perfect": [
-      "Absoluut briljant! Je kent hoofdstuk 11 als je eigen lichaam!",
+      "Absoluut briljant! Je kent de stof als je eigen DNA!",
       "Perfecte score! De biologieleraar gaat steil achterover!"
     ],
     "great": [

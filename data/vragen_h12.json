@@ -1,0 +1,1084 @@
+{
+  "vak": "Biologie",
+  "hoofdstuk": "12 - Erfelijkheid & DNA",
+  "scope": "Paragraaf 12.1 t/m 12.5",
+  "totaal_vragen": 100,
+  "leerdoelen": [
+    {
+      "leerdoel_id": 8,
+      "leerdoel_titel": "Erfelijkheid, genotype en fenotype",
+      "paragraaf": "§12.1",
+      "uitleg_tekst": "Erfelijkheid is het verschijnsel dat eigenschappen van ouders op kinderen worden doorgegeven. Het genotype (erfelijke aanleg) plus het milieu (omgeving) bepalen samen het fenotype (verschijningsvorm). Bij geslachtelijke voortplanting ontstaat variatie doordat nakomelingen een unieke combinatie van erfelijke eigenschappen krijgen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "8.1",
+          "subdoel_titel": "Erfelijkheid en variatie",
+          "uitleg_tekst": "Erfelijkheid is het doorgeven van eigenschappen van ouder op kind. Genetica (erfelijkheidsleer) onderzoekt welke eigenschappen erfelijk zijn. Bij geslachtelijke voortplanting ontstaat variatie doordat elk kind een unieke mix van ouderlijke eigenschappen krijgt.",
+          "vragen": [
+            {
+              "id": 101,
+              "type": "multiple_choice",
+              "vraag": "Wat is erfelijkheid?",
+              "opties": [
+                "Het verschijnsel dat eigenschappen van ouders op kinderen worden doorgegeven",
+                "Het verschijnsel dat kinderen precies dezelfde eigenschappen als hun ouders hebben",
+                "Het verschijnsel dat kinderen alleen uiterlijke kenmerken van hun moeder overnemen",
+                "Het verschijnsel dat alle kinderen uit hetzelfde gezin identiek zijn aan elkaar"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Erfelijkheid is het verschijnsel dat veel eigenschappen van ouders op kinderen worden doorgegeven. Kinderen krijgen een mix van eigenschappen van beide ouders, maar zijn nooit een exacte kopie. Daardoor lijken broers en zussen op elkaar, maar zijn ze ook verschillend."
+            },
+            {
+              "id": 102,
+              "type": "invullen",
+              "vraag": "De wetenschap die onderzoekt welke eigenschappen erfelijk zijn en hoe ze van ouder op kind doorgegeven worden, heet erfelijkheidsleer ofwel ...",
+              "juiste_antwoord": "genetica",
+              "uitleg": "Genetica (of erfelijkheidsleer) is de wetenschap die onderzoekt welke eigenschappen erfelijk zijn en op welke manier ze van ouder op kind worden doorgegeven."
+            },
+            {
+              "id": 103,
+              "type": "multiple_choice",
+              "vraag": "Waardoor ontstaat er variatie in eigenschappen bij nakomelingen?",
+              "opties": [
+                "Doordat kinderen alleen eigenschappen van de moeder erven via de eicel",
+                "Doordat alle kinderen exact dezelfde combinatie van ouderlijke genen krijgen",
+                "Doordat eigenschappen tijdens het leven pas ontstaan door de omgeving",
+                "Doordat elk kind bij geslachtelijke voortplanting een unieke combinatie van erfelijke eigenschappen krijgt"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij geslachtelijke voortplanting krijgt elke nakomeling een unieke combinatie van erfelijke eigenschappen van beide ouders. Daardoor zijn kinderen uit hetzelfde gezin nooit identiek (behalve eeneiige tweelingen). De 'mix' van erfelijke informatie valt steeds anders uit."
+            },
+            {
+              "id": 104,
+              "type": "multiple_choice",
+              "vraag": "Op welk moment komen de erfelijke eigenschappen van de vader en de moeder bij elkaar?",
+              "opties": [
+                "Tijdens de bevruchting",
+                "Tijdens de puberteit van het kind",
+                "Tijdens de meiose in de geslachtsorganen",
+                "Tijdens de geboorte van het kind"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Bij de bevruchting versmelt de zaadcel (met erfelijk materiaal van de vader) met de eicel (met erfelijk materiaal van de moeder). Op dat moment komt er een unieke mix van erfelijke eigenschappen tot stand."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.2",
+          "subdoel_titel": "Genotype, fenotype en milieu",
+          "uitleg_tekst": "Het genotype is het geheel van erfelijke eigenschappen, vastgelegd in het DNA op chromosomen. Het fenotype is de verschijningsvorm: het resultaat van genotype + milieu. Een gen is een specifiek deel van een chromosoom dat codeert voor een eigenschap.",
+          "vragen": [
+            {
+              "id": 105,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding van de flamingo. Het gen voor veerkleur codeert voor wit, maar in de natuur zijn flamingo's roze. Hoe komt dat?",
+              "opties": [
+                "De roze kleur is een secundair geslachtskenmerk dat pas ontstaat bij volwassen flamingo's",
+                "Het gen voor veerkleur is gemuteerd bij alle wilde flamingo's",
+                "Flamingo's verven hun veren met roze kleurstoffen die ze zelf aanmaken in de lever",
+                "Door carotenoïden uit hun voedsel wordt het fenotype roze"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Het genotype van de flamingo codeert voor witte veren, maar door carotenoïden in hun voedsel (algen en garnaaltjes) worden de veren roze gekleurd. Dit is een voorbeeld van hoe het milieu (voedsel) het fenotype beïnvloedt. Genotype + milieu = fenotype.",
+              "afbeelding": "images/h12/12.1_fig3.jpeg"
+            },
+            {
+              "id": 106,
+              "type": "invullen",
+              "vraag": "Het geheel van erfelijke eigenschappen van een organisme noem je het ...",
+              "juiste_antwoord": "genotype",
+              "uitleg": "Het genotype is het geheel van erfelijke eigenschappen van een organisme. Het komt tot stand bij de bevruchting en is onveranderlijk. Het fenotype (verschijningsvorm) hangt af van het genotype én het milieu."
+            },
+            {
+              "id": 107,
+              "type": "multiple_choice",
+              "vraag": "Een persoon heeft de erfelijke aanleg om goed piano te kunnen leren spelen, maar heeft nooit een piano gezien. Wat klopt er?",
+              "opties": [
+                "Het genotype verandert als iemand de aanleg niet gebruikt",
+                "Het fenotype voor pianospel komt niet tot uiting doordat het milieu dit niet mogelijk maakt",
+                "De aanleg voor pianospel verdwijnt en wordt niet doorgegeven aan kinderen",
+                "Het milieu heeft geen enkele invloed op erfelijke eigenschappen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Je kunt de vaardigheid om piano te spelen niet erven, maar wel de aanleg om je die vaardigheid eigen te maken. Of die aanleg tot uiting komt (fenotype), hangt af van het milieu: als je nooit in aanraking met een piano komt, zal de aanleg niet tot uiting komen. Het genotype verandert niet."
+            },
+            {
+              "id": 108,
+              "type": "choose_all_that_apply",
+              "vraag": "Waarvan hangt het fenotype van een organisme af?",
+              "opties": [
+                "Het genotype",
+                "De leeftijd van de ouders bij de bevruchting",
+                "Het milieu",
+                "De interactie tussen genotype en milieu"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Het fenotype (verschijningsvorm) hangt af van drie dingen: (1) het genotype, (2) het milieu, en (3) de interactie tussen genotype en milieu. De leeftijd van de ouders bij de bevruchting bepaalt niet het fenotype."
+            },
+            {
+              "id": 109,
+              "type": "invullen",
+              "vraag": "De verschijningsvorm van een organisme, dus hoe het eruitziet en welke kenmerken het heeft, noem je het ...",
+              "juiste_antwoord": "fenotype",
+              "uitleg": "Het fenotype is de verschijningsvorm van een organisme: het geheel van lichamelijke en geestelijke kenmerken. Het fenotype is het resultaat van de inwerking van het milieu op het genotype."
+            },
+            {
+              "id": 110,
+              "type": "multiple_choice",
+              "vraag": "Hoeveel chromosomen heeft een menselijke lichaamscel?",
+              "opties": [
+                "23",
+                "44",
+                "46",
+                "92"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Elke menselijke lichaamscel bevat 46 chromosomen (23 paar). Geslachtscellen bevatten de helft: 23 chromosomen. Na de bevruchting heeft de bevruchte eicel weer 46 chromosomen (23 van de vader + 23 van de moeder)."
+            },
+            {
+              "id": 111,
+              "type": "multiple_choice",
+              "vraag": "Wat is een gen?",
+              "opties": [
+                "Een heel chromosoom met alle erfelijke informatie van één ouder",
+                "Een cel die zorgt voor het doorgeven van erfelijke informatie aan nakomelingen",
+                "Een eiwit dat verantwoordelijk is voor een bepaald lichamelijk kenmerk",
+                "Een specifiek deel van een chromosoom dat codeert voor een eigenschap"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Een gen is een specifiek deel van een chromosoom dat codeert voor een eigenschap. Een chromosoom kun je zien als een lange ketting van genen. Elk gen bevat informatie over een bepaalde eigenschap, zoals oogkleur of haarkleur."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.3",
+          "subdoel_titel": "Mitose en meiose",
+          "uitleg_tekst": "Bij mitose (gewone celdeling) ontstaan twee identieke dochtercellen met 46 chromosomen. Bij meiose ontstaan geslachtscellen met elk 23 chromosomen. Na bevruchting heeft de bevruchte eicel weer 46 chromosomen.",
+          "vragen": [
+            {
+              "id": 112,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding van de meiose. Hoeveel cellen ontstaan er uiteindelijk uit één moedercel?",
+              "opties": [
+                "Vier cellen met elk 23 chromosomen",
+                "Twee cellen met elk 46 chromosomen",
+                "Twee cellen met elk 23 chromosomen",
+                "Vier cellen met elk 46 chromosomen"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Bij de meiose ontstaan uit één moedercel uiteindelijk vier geslachtscellen, elk met 23 chromosomen (de helft van het oorspronkelijke aantal). Dit is te zien aan het einde van de afbeelding: er zijn vier kleinere cellen ontstaan.",
+              "afbeelding": "images/h12/12.1_fig4.jpeg"
+            },
+            {
+              "id": 113,
+              "type": "multiple_choice",
+              "vraag": "Wat is het belangrijkste verschil tussen mitose en meiose?",
+              "opties": [
+                "Mitose vindt plaats in de eierstokken en testes, meiose in alle andere weefsels",
+                "Bij mitose verdubbelen de chromosomen niet, bij meiose wel",
+                "Bij mitose ontstaan geslachtscellen, bij meiose juist lichaamscellen",
+                "Bij mitose ontstaan twee identieke cellen met 46 chromosomen, bij meiose vier cellen met 23"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij mitose (gewone celdeling) ontstaan twee identieke dochtercellen met elk 46 chromosomen — het doel is groei. Bij meiose (vorming van geslachtscellen) ontstaan vier cellen met elk 23 chromosomen. Bij beide delingen verdubbelen de chromosomen eerst."
+            },
+            {
+              "id": 114,
+              "type": "invullen",
+              "vraag": "De celdeling waarbij geslachtscellen (zaadcellen en eicellen) worden gevormd, heet ...",
+              "juiste_antwoord": "meiose",
+              "uitleg": "De meiose is de celdeling waarbij geslachtscellen worden gevormd. Bij de mens vindt dit plaats in de eierstokken (eicellen) en de testes (zaadcellen). Het aantal chromosomen wordt gehalveerd van 46 naar 23."
+            },
+            {
+              "id": 115,
+              "type": "multiple_choice",
+              "vraag": "Waarom is het nodig dat geslachtscellen maar 23 chromosomen bevatten?",
+              "opties": [
+                "Omdat geslachtscellen kleiner moeten zijn dan lichaamscellen om te kunnen versmelten",
+                "Omdat er anders bij de bevruchting 92 chromosomen in de bevruchte eicel zouden komen",
+                "Omdat 23 chromosomen sneller gekopieerd worden dan 46 chromosomen",
+                "Omdat de geslachtsorganen niet genoeg energie hebben om 46 chromosomen te maken"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Als geslachtscellen 46 chromosomen zouden bevatten, zou de bevruchte eicel 92 chromosomen krijgen (46 + 46). Bij elke volgende generatie zou het aantal verdubbelen. Doordat geslachtscellen maar 23 chromosomen hebben, bevat de bevruchte eicel weer precies 46."
+            },
+            {
+              "id": 116,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van de meiose in de juiste volgorde.",
+              "opties": {
+                "A": "Er ontstaan vier geslachtscellen met elk 23 chromosomen",
+                "B": "De moedercel bevat 46 chromosomen (23 paar)",
+                "C": "De chromosomen worden in twee delingen over de dochtercellen verdeeld",
+                "D": "De chromosomen in de moedercel verdubbelen zich"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "De meiose begint met een moedercel met 46 chromosomen. Eerst verdubbelen de chromosomen zich. Daarna volgen twee celdelingen, waarbij de chromosomen over de dochtercellen worden verdeeld. Het eindresultaat is vier geslachtscellen met elk 23 chromosomen."
+            },
+            {
+              "id": 117,
+              "type": "multiple_choice",
+              "vraag": "Waar vindt de meiose plaats in het menselijk lichaam?",
+              "opties": [
+                "In de eierstokken en de testes",
+                "In alle lichaamscellen die zich delen",
+                "Alleen in de hersenen en het beenmerg",
+                "In het beenmerg en de milt"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De meiose vindt plaats in de eierstokken van de vrouw (vorming van eicellen) en in de testes van de man (vorming van zaadcellen). In alle andere delende cellen vindt mitose plaats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 9,
+      "leerdoel_titel": "DNA: bouw en werking",
+      "paragraaf": "§12.2",
+      "uitleg_tekst": "DNA is een lang, draadvormig molecuul dat opgerold in de celkern ligt. Het is gewikkeld om histonen en vormt chromosomen. DNA bevat vier basen: A, T, G en C. A koppelt altijd aan T, C altijd aan G. De informatie in DNA wordt via RNA naar ribosomen gebracht, waar eiwitten worden gemaakt.",
+      "subdoelen": [
+        {
+          "subdoel_id": "9.1",
+          "subdoel_titel": "Opbouw van DNA en chromosomen",
+          "uitleg_tekst": "DNA is opgerold om histonen (eiwitten) en vormt chromosomen in de celkern. Afgerold lijkt DNA op een gedraaide ladder. De 'traptreden' bestaan uit DNA-basen: adenine (A), thymine (T), guanine (G) en cytosine (C). A koppelt alleen aan T, C alleen aan G.",
+          "vragen": [
+            {
+              "id": 118,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding van de opbouw van DNA. Wat is een histon?",
+              "opties": [
+                "Een DNA-base die koppelt aan adenine in de dubbele helix",
+                "Een eiwit waar de DNA-sliert zich omheen wikkelt",
+                "Een deel van het RNA dat via het kernmembraan de celkern uitgaat",
+                "Een chromosoom dat alleen in geslachtscellen voorkomt"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Een histon is een eiwit waar de DNA-sliert zich een paar keer omheen wikkelt. De met DNA omwikkelde histonen liggen netjes gerangschikt in een spiraal. Histonen helpen bij het compact oprollen van het enorm lange DNA-molecuul in de celkern.",
+              "afbeelding": "images/h12/12.2_fig1.jpeg"
+            },
+            {
+              "id": 119,
+              "type": "volgorde",
+              "vraag": "Bekijk de afbeelding. Zet de onderdelen in volgorde van groot naar klein.",
+              "opties": {
+                "A": "DNA-basen (A, T, G, C)",
+                "B": "Celkern",
+                "C": "DNA-spiraal",
+                "D": "Chromosoom"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Van groot naar klein: de celkern bevat chromosomen, een chromosoom is opgerold DNA, de DNA-spiraal is opgebouwd uit DNA-basen (A, T, G, C). Dit is precies wat je in de afbeelding van boven naar beneden ziet.",
+              "afbeelding": "images/h12/12.2_fig1.jpeg"
+            },
+            {
+              "id": 120,
+              "type": "multiple_choice",
+              "vraag": "Welke DNA-basenkoppeling is NIET mogelijk?",
+              "opties": [
+                "Thymine – Adenine",
+                "Cytosine – Guanine",
+                "Adenine – Guanine",
+                "Adenine – Thymine"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "A koppelt altijd aan T en C koppelt altijd aan G. De combinatie A-G is niet mogelijk. De mogelijke 'traptreden' zijn: A-T, T-A, C-G en G-C. Andere combinaties komen niet voor."
+            },
+            {
+              "id": 121,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende zijn DNA-basen?",
+              "opties": [
+                "Adenine (A)",
+                "Ribose (R)",
+                "Thymine (T)",
+                "Guanine (G)",
+                "Cytosine (C)"
+              ],
+              "juiste_antwoorden": [0, 2, 3, 4],
+              "uitleg": "De vier DNA-basen zijn adenine (A), thymine (T), guanine (G) en cytosine (C). Ribose is een suikermolecuul dat voorkomt in RNA, maar is geen DNA-base."
+            },
+            {
+              "id": 122,
+              "type": "invullen",
+              "vraag": "In het DNA koppelt adenine (A) altijd aan ...",
+              "juiste_antwoord": "thymine",
+              "uitleg": "Adenine (A) koppelt altijd aan thymine (T), en cytosine (C) koppelt altijd aan guanine (G). Dit noemen we basenparing. Hierdoor weet je, als je één kant van de DNA-ladder kent, precies hoe de andere kant eruitziet."
+            },
+            {
+              "id": 123,
+              "type": "multiple_choice",
+              "vraag": "Op één kant van de DNA-ladder staat de volgorde A-C-T-G. Wat staat er op de andere kant?",
+              "opties": [
+                "G-T-C-A",
+                "A-C-T-G",
+                "C-A-G-T",
+                "T-G-A-C"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "A koppelt aan T, C koppelt aan G, T koppelt aan A, en G koppelt aan C. Dus tegenover A-C-T-G staat T-G-A-C. Elke base heeft altijd dezelfde partner."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "9.2",
+          "subdoel_titel": "Van DNA naar eiwit",
+          "uitleg_tekst": "Als de cel informatie van het DNA nodig heeft, wordt een kopie gemaakt: RNA. Het RNA gaat via het kernmembraan de celkern uit en wordt bij de ribosomen vertaald naar een eiwit. Het tot uiting komen van een erfelijke eigenschap heet expressie.",
+          "vragen": [
+            {
+              "id": 124,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wat is de functie van RNA?",
+              "opties": [
+                "RNA slaat de erfelijke informatie permanent op in de celkern als backup",
+                "RNA repareert beschadigd DNA na een mutatie in de celkern",
+                "RNA is een tijdelijke kopie van een stukje DNA die de celkern uit kan",
+                "RNA zorgt ervoor dat chromosomen zich verdubbelen bij de celdeling"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "RNA is een tijdelijke kopie van een stukje DNA-informatie. In tegenstelling tot DNA kan RNA wel via het kernmembraan de celkern uit. Buiten de celkern wordt het RNA door ribosomen vertaald naar een eiwit.",
+              "afbeelding": "images/h12/12.2_fig2.jpeg"
+            },
+            {
+              "id": 125,
+              "type": "volgorde",
+              "vraag": "Bekijk de afbeelding. Zet de stappen van DNA naar eiwit in de juiste volgorde.",
+              "opties": {
+                "A": "Ribosomen vertalen het RNA naar een eiwit",
+                "B": "Er wordt een RNA-kopie gemaakt van een stukje DNA",
+                "C": "Het RNA gaat via het kernmembraan de celkern uit",
+                "D": "Speciale moleculen zoeken het juiste deel van het DNA op"
+              },
+              "juiste_antwoord": "1:D, 2:B, 3:C, 4:A",
+              "uitleg": "Eerst wordt het juiste stukje DNA opgezocht en afgerold van de histonen. Dan wordt er een RNA-kopie gemaakt. Het RNA verlaat de celkern via openingen in het kernmembraan. In het cytoplasma vertalen de ribosomen het RNA naar een eiwit.",
+              "afbeelding": "images/h12/12.2_fig2.jpeg"
+            },
+            {
+              "id": 126,
+              "type": "invullen",
+              "vraag": "Het tot uiting komen van een erfelijke eigenschap noemen we ...",
+              "juiste_antwoord": "expressie",
+              "uitleg": "Expressie is het tot uiting komen van een erfelijke eigenschap. Dit gebeurt doordat de informatie in het DNA via RNA wordt vertaald naar een eiwit, en dat eiwit heeft een merkbaar effect (van de groei van wimpers tot het bepalen van je geslacht)."
+            },
+            {
+              "id": 127,
+              "type": "multiple_choice",
+              "vraag": "Waar worden eiwitten gemaakt in de cel?",
+              "opties": [
+                "In de celkern, direct op het DNA-molecuul",
+                "Bij de ribosomen, in het cytoplasma",
+                "Op de chromosomen, tijdens de celdeling",
+                "In het kernmembraan, bij het verlaten van de celkern"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Eiwitten worden gemaakt bij de ribosomen in het cytoplasma (buiten de celkern). Het RNA brengt de informatie van het DNA naar de ribosomen, die het vertalen naar een eiwit. Het DNA zelf verlaat de celkern nooit."
+            },
+            {
+              "id": 128,
+              "type": "multiple_choice",
+              "vraag": "Waarom wordt er een RNA-kopie gemaakt in plaats van het DNA zelf naar de ribosomen te sturen?",
+              "opties": [
+                "Omdat RNA sneller gemaakt wordt dan DNA gekopieerd kan worden",
+                "Omdat de ribosomen alleen RNA kunnen lezen en geen DNA",
+                "Omdat DNA veel te groot is om de celkern te verlaten",
+                "Omdat het DNA na gebruik vernietigd zou worden door de ribosomen"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "DNA is een enorm lang molecuul dat opgerold in de celkern ligt en niet door het kernmembraan past. Daarom wordt er een kleine kopie (RNA) gemaakt die wel door de openingen in het kernmembraan past. Zo blijft het DNA veilig in de celkern."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "9.3",
+          "subdoel_titel": "Genen, allelen en homologe chromosomen",
+          "uitleg_tekst": "Een gen is een stukje DNA dat codeert voor een eigenschap. Varianten van een gen heten allelen. De mens heeft 23 paar homologe chromosomen: tweelingchromosomen met dezelfde genen, maar mogelijk verschillende allelen (één van de moeder, één van de vader).",
+          "vragen": [
+            {
+              "id": 129,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding van homologe chromosomen. Wat klopt er over dit chromosomenpaar?",
+              "opties": [
+                "Ze bevatten dezelfde genen, maar de allelen kunnen verschillen",
+                "Ze zijn altijd volledig identiek aan elkaar, inclusief alle allelen",
+                "Ze bevatten volledig verschillende genen omdat ze van twee ouders komen",
+                "Ze bevatten exact dezelfde allelen omdat ze kopieën van elkaar zijn"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Homologe chromosomen zijn tweelingchromosomen met dezelfde genen, maar de allelen (varianten van die genen) kunnen verschillen. Dat komt doordat het ene chromosoom van je moeder komt en het andere van je vader.",
+              "afbeelding": "images/h12/12.2_fig3.jpeg"
+            },
+            {
+              "id": 130,
+              "type": "invullen",
+              "vraag": "Elke variant van een gen noemen we een ...",
+              "juiste_antwoord": "allel",
+              "uitleg": "Een allel is een variant van een gen. Er kunnen meerdere allelen van één gen bestaan. Bijvoorbeeld: het gen voor haarkleur heeft allelen voor blond, rood, bruin en zwart haar. Van elk gen heb je twee allelen: één van je moeder en één van je vader."
+            },
+            {
+              "id": 131,
+              "type": "multiple_choice",
+              "vraag": "Iedereen heeft een gen voor haarkleur. Toch hebben mensen verschillende haarkleuren. Hoe komt dat?",
+              "opties": [
+                "Haarkleur is niet erfelijk maar wordt volledig bepaald door zonlicht",
+                "Sommige mensen missen het gen voor haarkleur helemaal",
+                "Het gen voor haarkleur ligt bij iedereen op een ander chromosoom",
+                "Er bestaan verschillende allelen voor haarkleur"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Er zijn verschillende allelen (varianten) van het gen voor haarkleur, zoals voor blond, rood, bruin en zwart haar. Welke haarkleur je krijgt, hangt af van welke combinatie van allelen je van je ouders hebt geërfd."
+            },
+            {
+              "id": 132,
+              "type": "invullen",
+              "vraag": "Tweelingchromosomen, die dezelfde genen bevatten maar van verschillende ouders komen, noem je ... chromosomen.",
+              "juiste_antwoord": "homologe",
+              "uitleg": "Homologe chromosomen zijn tweelingchromosomen die dezelfde genen bevatten. De mens heeft 23 paar homologe chromosomen. Van elk paar komt het ene chromosoom van de moeder en het andere van de vader."
+            },
+            {
+              "id": 133,
+              "type": "multiple_choice",
+              "vraag": "Uit hoeveel paar homologe chromosomen bestaan de 46 chromosomen in een menselijke lichaamscel?",
+              "opties": [
+                "2 paar",
+                "12 paar",
+                "46 paar",
+                "23 paar"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "De mens heeft 23 paar homologe chromosomen, dus in totaal 46 chromosomen per lichaamscel. Van elk paar komt één chromosoom van de moeder en één van de vader."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 10,
+      "leerdoel_titel": "Overerving en kruisingen",
+      "paragraaf": "§12.3",
+      "uitleg_tekst": "Bij een gen kun je homozygoot zijn (twee dezelfde allelen) of heterozygoot (twee verschillende allelen). Allelen kunnen dominant, recessief of co-dominant overerven. Met een kruisingsschema kun je de kans op genotypen en fenotypen bij nakomelingen bepalen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "10.1",
+          "subdoel_titel": "Homozygoot, heterozygoot en overerving",
+          "uitleg_tekst": "Homozygoot = twee dezelfde allelen voor een gen. Heterozygoot = twee verschillende allelen. Bij co-dominante overerving komen beide allelen tot expressie (intermediair fenotype). Bij dominante overerving overheerst één allel het andere (recessieve) allel. Een drager is heterozygoot met één recessief allel.",
+          "vragen": [
+            {
+              "id": 134,
+              "type": "multiple_choice",
+              "vraag": "Iemand heeft voor het gen haarkleur twee keer het allel voor zwart haar. Hoe noem je dat?",
+              "opties": [
+                "Co-dominant",
+                "Heterozygoot",
+                "Intermediair",
+                "Homozygoot"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Als je voor een gen tweemaal hetzelfde allel hebt, ben je homozygoot voor dat gen. Bij twee verschillende allelen ben je heterozygoot. Hier heeft de persoon twee keer 'zwart haar', dus is hij homozygoot voor haarkleur."
+            },
+            {
+              "id": 135,
+              "type": "invullen",
+              "vraag": "Als je voor een gen twee verschillende allelen hebt, ben je voor dat gen ...",
+              "juiste_antwoord": "heterozygoot",
+              "uitleg": "Heterozygoot betekent dat je twee verschillende allelen hebt voor een gen. Homozygoot betekent dat je twee dezelfde allelen hebt. Of een eigenschap tot uiting komt, hangt af van hoe de allelen overerven (dominant, recessief of co-dominant)."
+            },
+            {
+              "id": 136,
+              "type": "multiple_choice",
+              "vraag": "Bij co-dominante overerving heeft iemand een allel voor zwart haar en een allel voor blond haar. Wat is het fenotype?",
+              "opties": [
+                "Zwart haar, want het donkerste allel wint altijd",
+                "Blond haar, want het lichtste allel is altijd recessief",
+                "Een kleur tussen blond en zwart in (intermediair)",
+                "Afwisselend zwarte en blonde haren op het hoofd"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Bij co-dominante overerving hebben beide allelen een even sterke invloed. De eigenschap komt dan als een mengvorm tot expressie: een kleur ergens tussen blond en zwart. Dit noem je een intermediair fenotype."
+            },
+            {
+              "id": 137,
+              "type": "multiple_choice",
+              "vraag": "Eva heeft zwart haar, hoewel ze ook een allel voor blond haar heeft. Het allel voor zwart haar is dus ...",
+              "opties": [
+                "Dominant, want het overheerst het andere allel",
+                "Recessief, want het komt alleen tot uiting bij heterozygoten",
+                "Co-dominant, want beide allelen komen tot expressie",
+                "Intermediair, want het resultaat is een mengvorm van beide kleuren"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Het allel voor zwart haar is dominant: het overheerst het allel voor blond haar. Eva is heterozygoot (één allel zwart, één allel blond), maar haar fenotype is zwart haar. Het allel voor blond haar is recessief en komt niet tot expressie."
+            },
+            {
+              "id": 138,
+              "type": "invullen",
+              "vraag": "Iemand die heterozygoot is met één recessief allel noemen we een ... van dat recessieve allel.",
+              "juiste_antwoord": "drager",
+              "uitleg": "Een drager is iemand die heterozygoot is: hij heeft één dominant en één recessief allel. Het recessieve allel komt niet tot expressie in het fenotype, maar kan wel worden doorgegeven aan nakomelingen."
+            },
+            {
+              "id": 139,
+              "type": "multiple_choice",
+              "vraag": "Wanneer is het recessieve allel zichtbaar in het fenotype?",
+              "opties": [
+                "Altijd, want recessieve allelen komen per definitie tot expressie",
+                "Alleen als de persoon heterozygoot is en het dominante allel zwak is",
+                "Nooit, want recessieve allelen worden altijd volledig overheerst",
+                "Alleen als de persoon homozygoot recessief is"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Een recessief allel komt alleen tot expressie als een persoon homozygoot recessief is: hij heeft dan tweemaal het recessieve allel. Bij heterozygoten wordt het recessieve allel overheerst door het dominante allel."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "10.2",
+          "subdoel_titel": "Kruisingsschema's",
+          "uitleg_tekst": "Met een kruisingsschema bepaal je de mogelijke genotypen en fenotypen van nakomelingen. Je noteert dominante allelen met een hoofdletter en recessieve met een kleine letter. De ouders heten Parentes (P), de nakomelingen filii (F1, F2).",
+          "vragen": [
+            {
+              "id": 140,
+              "type": "multiple_choice",
+              "vraag": "Bekijk het kruisingsschema. Beide ouders zijn heterozygoot (Aa). Hoeveel procent van de nakomelingen is naar verwachting homozygoot recessief (aa)?",
+              "opties": [
+                "0%",
+                "25%",
+                "50%",
+                "75%"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Bij een kruising Aa × Aa zijn de mogelijke genotypen: AA (25%), Aa (50%) en aa (25%). Dus 25% van de nakomelingen is naar verwachting homozygoot recessief (aa). Dit zie je in het kruisingsschema: één van de vier vakjes bevat aa.",
+              "afbeelding": "images/h12/12.3_fig1.jpeg"
+            },
+            {
+              "id": 141,
+              "type": "multiple_choice",
+              "vraag": "Bekijk het kruisingsschema. Het allel voor vlekken (A) is dominant. Beide ouders zijn Aa. Welk percentage van de F1 heeft vlekken?",
+              "opties": [
+                "100%",
+                "50%",
+                "25%",
+                "75%"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "De genotypen in de F1 zijn: AA (25%), Aa (50%) en aa (25%). Zowel AA als Aa hebben vlekken als fenotype (want A is dominant). Dat is 25% + 50% = 75% met vlekken. Alleen aa (25%) is ongevlekt.",
+              "afbeelding": "images/h12/12.3_fig1.jpeg"
+            },
+            {
+              "id": 142,
+              "type": "invullen",
+              "vraag": "De ouders in een kruising worden aangeduid met de term Parentes, afgekort met de letter ...",
+              "juiste_antwoord": "P",
+              "uitleg": "De ouders in een kruising heten Parentes (afgekort P). De eerste generatie nakomelingen is F1 (filii 1), en hun kinderen vormen de F2-generatie."
+            },
+            {
+              "id": 143,
+              "type": "multiple_choice",
+              "vraag": "Hoe noteer je een dominant allel in een kruisingsschema?",
+              "opties": [
+                "Met een kleine letter (a)",
+                "Met een Griekse letter (alfa, bèta)",
+                "Met een hoofdletter (A)",
+                "Met een cijfer (1 of 2)"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "In een kruisingsschema noteer je een dominant allel met een hoofdletter (bijv. A) en een recessief allel met een kleine letter (bijv. a). Bij co-dominante allelen gebruik je een hoofdletter met een teken in superscript."
+            },
+            {
+              "id": 144,
+              "type": "multiple_choice",
+              "vraag": "Een vader met genotype AA wordt gekruist met een moeder met genotype aa. Wat is het genotype van alle nakomelingen in de F1?",
+              "opties": [
+                "Allemaal Aa",
+                "50% AA en 50% aa",
+                "Allemaal AA",
+                "Allemaal aa"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De vader kan alleen het allel A doorgeven en de moeder alleen het allel a. Elke nakomeling krijgt dus één A (van vader) en één a (van moeder). Alle nakomelingen in de F1 zijn Aa (heterozygoot)."
+            },
+            {
+              "id": 145,
+              "type": "invullen",
+              "vraag": "De eerste generatie nakomelingen in een kruising wordt aangeduid als ...",
+              "juiste_antwoord": "F1",
+              "uitleg": "F1 staat voor de eerste generatie nakomelingen (filii). De ouders worden aangeduid als P (Parentes). Als je de F1-nakomelingen onderling kruist, krijg je de F2-generatie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 11,
+      "leerdoel_titel": "Puzzelen met erfelijkheid",
+      "paragraaf": "§12.4",
+      "uitleg_tekst": "Het geslacht wordt bepaald door geslachtschromosomen: XX = vrouw, XY = man. Genen op het X-chromosoom komen bij mannen altijd tot expressie. Letale allelen zijn dodelijk in homozygote vorm. Bij dihybride kruisingen let je op twee eigenschappen tegelijk. Met stambomen kun je genotypen herleiden uit fenotypen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "11.1",
+          "subdoel_titel": "X- en Y-chromosoom",
+          "uitleg_tekst": "Het X-chromosoom en het kleinere Y-chromosoom zijn de geslachtschromosomen. XX = vrouw, XY = man. Elke nakomeling heeft 50% kans om man of vrouw te worden. Genen op het X-chromosoom (X-chromosomale genen) komen bij mannen altijd tot expressie, omdat zij geen tweede X hebben.",
+          "vragen": [
+            {
+              "id": 146,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Welke combinatie van geslachtschromosomen heeft een man?",
+              "opties": [
+                "XX",
+                "YY",
+                "XY",
+                "XXY"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een man heeft één X-chromosoom en één Y-chromosoom (XY). Een vrouw heeft twee X-chromosomen (XX). In de afbeelding zie je dat de vader (XY) aan zijn dochters altijd een X doorgeeft en aan zijn zoons altijd een Y.",
+              "afbeelding": "images/h12/12.4_fig1.jpeg"
+            },
+            {
+              "id": 147,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wie bepaalt het geslacht van het kind?",
+              "opties": [
+                "De moeder, want zij draagt het kind tijdens de zwangerschap",
+                "Geen van beiden, het geslacht wordt volledig willekeurig bepaald",
+                "Beide ouders evenveel, want ze geven allebei een chromosoom door",
+                "De vader, want hij geeft een X- of een Y-chromosoom door"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "De moeder geeft altijd een X-chromosoom door (want zij is XX). De vader geeft óf een X óf een Y door (want hij is XY). Als de zaadcel een X bevat, wordt het een meisje (XX). Bevat de zaadcel een Y, dan wordt het een jongen (XY).",
+              "afbeelding": "images/h12/12.4_fig1.jpeg"
+            },
+            {
+              "id": 148,
+              "type": "multiple_choice",
+              "vraag": "Bekijk het kruisingsschema voor kleurenblindheid. De moeder is draagster (X^R X^r), de vader ziet normaal (X^R Y). Hoe groot is de kans dat een zoon kleurenblind is?",
+              "opties": [
+                "100% — alle zonen zijn kleurenblind",
+                "25% — één op de vier kinderen is kleurenblind",
+                "0% — zonen erven het gezonde allel van de vader",
+                "50% — de helft van de zonen"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Zonen krijgen hun X-chromosoom van de moeder. De moeder heeft 50% kans om X^R of X^r door te geven. Een zoon die X^r krijgt is kleurenblind (want hij heeft geen tweede X). Dus 50% van de zonen is kleurenblind.",
+              "afbeelding": "images/h12/12.4_fig2.jpeg"
+            },
+            {
+              "id": 149,
+              "type": "multiple_choice",
+              "vraag": "Waarom komen X-chromosomale recessieve aandoeningen vaker voor bij mannen?",
+              "opties": [
+                "Omdat mannen geen tweede X-chromosoom hebben dat het recessieve allel kan overschaduwen",
+                "Omdat het Y-chromosoom het recessieve allel op het X-chromosoom versterkt",
+                "Omdat mannen twee X-chromosomen hebben en vrouwen maar één",
+                "Omdat vrouwen volledig immuun zijn voor alle X-chromosomale aandoeningen"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Mannen hebben maar één X-chromosoom (en een klein Y-chromosoom met weinig genen). Een recessief allel op het X-chromosoom komt bij een man altijd tot expressie, omdat er geen tweede X is met een dominant allel dat het kan overschaduwen."
+            },
+            {
+              "id": 150,
+              "type": "invullen",
+              "vraag": "Een gen dat op het X-chromosoom ligt, noemen we een ... gen.",
+              "juiste_antwoord": "X-chromosomaal",
+              "uitleg": "Een X-chromosomaal gen is een gen dat op het X-chromosoom ligt. Voorbeelden zijn het gen voor kleurenblindheid en het gen voor hemofilie. Bij mannen komt zo'n gen altijd tot expressie, omdat zij geen tweede X-chromosoom hebben."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "11.2",
+          "subdoel_titel": "Letale allelen",
+          "uitleg_tekst": "Een letaal allel is een allel dat in homozygote vorm dodelijk is. Het organisme sterft dan meestal vroeg in de embryonale ontwikkeling. Een voorbeeld zijn de staartloze Manx-katten: heterozygoten hebben geen staart, homozygoten voor het letale allel sterven.",
+          "vragen": [
+            {
+              "id": 151,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding van de Manx-katten. Wat is een letaal allel?",
+              "opties": [
+                "Een allel dat ervoor zorgt dat het organisme geen nakomelingen kan krijgen",
+                "Een allel dat altijd dominant overerft en alle andere allelen overschaduwt",
+                "Een allel dat alleen bij mannen tot expressie kan komen via het Y-chromosoom",
+                "Een allel dat in homozygote vorm dodelijk is voor het organisme"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Een letaal allel is een allel dat dodelijk is als een organisme er homozygoot voor is. Het organisme sterft dan meestal vroeg in de embryonale ontwikkeling. Heterozygote dragers overleven wel, maar kunnen een afwijkend fenotype hebben (zoals de staartloze Manx-katten).",
+              "afbeelding": "images/h12/12.4_fig3.jpeg"
+            },
+            {
+              "id": 152,
+              "type": "multiple_choice",
+              "vraag": "Bekijk het kruisingsschema. Twee staartloze Manx-katten (W^z W^0) worden gekruist. Welk deel van de LEVEND GEBOREN kittens heeft een staart?",
+              "opties": [
+                "Een derde (33%)",
+                "Geen — alle levend geboren kittens zijn staartloos",
+                "De helft (50%)",
+                "Een kwart (25%)"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Het kruisingsschema geeft: 25% W^z W^z (staart), 50% W^z W^0 (staartloos), 25% W^0 W^0 (niet levensvatbaar). De W^0 W^0 kittens worden niet geboren. Van de levend geboren kittens is 1/3 (33%) W^z W^z met staart, en 2/3 (67%) staartloos.",
+              "afbeelding": "images/h12/12.4_fig4.jpeg"
+            }
+          ]
+        },
+        {
+          "subdoel_id": "11.3",
+          "subdoel_titel": "Mono- en dihybride kruisingen",
+          "uitleg_tekst": "Bij een monohybride kruising let je op één eigenschap, bij een dihybride kruising op twee eigenschappen (16 mogelijke genotypen). Gekoppelde genen liggen op hetzelfde chromosoom en erven samen over.",
+          "vragen": [
+            {
+              "id": 153,
+              "type": "multiple_choice",
+              "vraag": "Wat is het verschil tussen een monohybride en een dihybride kruising?",
+              "opties": [
+                "Bij monohybride zijn de ouders homozygoot, bij dihybride zijn ze heterozygoot",
+                "Bij monohybride kruis je één ouder, bij dihybride kruis je twee ouders met elkaar",
+                "Bij monohybride let je op één eigenschap, bij dihybride op twee",
+                "Bij monohybride gebruik je letters, bij dihybride gebruik je cijfers als notatie"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Bij een monohybride kruising let je op de overerving van één eigenschap (4 vakjes in het schema). Bij een dihybride kruising let je op twee eigenschappen tegelijk (16 vakjes). In beide gevallen kruis je twee ouders."
+            },
+            {
+              "id": 154,
+              "type": "multiple_choice",
+              "vraag": "Bekijk het dihybride kruisingsschema (AaBb × AaBb). Hoeveel vakjes heeft dit schema?",
+              "opties": [
+                "4",
+                "8",
+                "16",
+                "32"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Bij een dihybride kruising van twee heterozygote ouders (AaBb × AaBb) zijn er 16 mogelijke genotypecombinaties in het kruisingsschema (4 × 4 vakjes). Elke ouder kan vier verschillende combinaties van allelen doorgeven: AB, Ab, aB en ab.",
+              "afbeelding": "images/h12/12.4_fig5.jpeg"
+            },
+            {
+              "id": 155,
+              "type": "multiple_choice",
+              "vraag": "Wat zijn gekoppelde genen?",
+              "opties": [
+                "Genen die altijd co-dominant overerven bij alle organismen",
+                "Genen die alleen via het X-chromosoom aan zonen worden doorgegeven",
+                "Genen die pas na een mutatie in de geslachtscellen actief worden",
+                "Genen die op hetzelfde chromosoom liggen en samen overerven"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Gekoppelde genen liggen op hetzelfde chromosoom en erven daardoor altijd samen over. Bij een kruising met gekoppelde genen heb je minder combinatiemogelijkheden dan bij genen op verschillende chromosomen.",
+              "afbeelding": "images/h12/12.4_fig6.jpeg"
+            },
+            {
+              "id": 156,
+              "type": "multiple_choice",
+              "vraag": "Bij een dihybride kruising (AaBb × AaBb) met A en B dominant: in welke verhouding komen de fenotypen voor?",
+              "opties": [
+                "9 : 3 : 3 : 1",
+                "3 : 1",
+                "1 : 1 : 1 : 1",
+                "1 : 2 : 1"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Bij een dihybride kruising van twee heterozygote ouders met dominante overerving is de fenotypeverhouding 9 : 3 : 3 : 1. Dus 9/16 heeft beide dominante eigenschappen, 3/16 heeft alleen de eerste, 3/16 alleen de tweede, en 1/16 geen van beide."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "11.4",
+          "subdoel_titel": "Stamboomonderzoek",
+          "uitleg_tekst": "In een stamboom worden fenotypen van familieleden weergegeven. Met stappen kun je genotypen herleiden: zoek iemand met het recessieve fenotype (homozygoot recessief), bepaal vervolgens de genotypen van ouders en nakomelingen.",
+          "vragen": [
+            {
+              "id": 157,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de stamboom. Welk symbool staat voor een vrouw?",
+              "opties": [
+                "Een vierkant",
+                "Een rondje",
+                "Een ruit",
+                "Een driehoek"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "In een stamboom staat een rondje voor een vrouw en een vierkant voor een man. Een ruit wordt gebruikt als het geslacht onbekend is. Zwart ingekleurd betekent dat de persoon de eigenschap heeft.",
+              "afbeelding": "images/h12/12.4_fig7.jpeg"
+            },
+            {
+              "id": 158,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de stamboom. Een kind heeft bloedarmoede (recessief), maar beide ouders niet. Wat zijn de ouders?",
+              "opties": [
+                "Beide ouders zijn AA (homozygoot dominant)",
+                "Eén ouder is AA en de andere is aa",
+                "Beide ouders zijn aa (homozygoot recessief)",
+                "Beide ouders zijn Aa (heterozygoot, drager)"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Het kind met bloedarmoede is homozygoot recessief (aa). Het kind heeft van elke ouder één recessief allel (a) gekregen. Maar de ouders hebben zelf geen bloedarmoede, dus ze moeten ook een dominant allel (A) hebben. Beide ouders zijn Aa: drager van het recessieve allel.",
+              "afbeelding": "images/h12/12.4_fig7.jpeg"
+            },
+            {
+              "id": 159,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van stamboomonderzoek in de juiste volgorde.",
+              "opties": {
+                "A": "Noteer het genotype (aa) bij personen met het recessieve fenotype",
+                "B": "Bestudeer de stamboom en de gegeven informatie",
+                "C": "Bepaal welk allel dominant en welk recessief is",
+                "D": "Leid de genotypen van ouders en nakomelingen af"
+              },
+              "juiste_antwoord": "1:B, 2:C, 3:A, 4:D",
+              "uitleg": "Eerst bestudeer je de stamboom. Dan bepaal je welk allel dominant en welk recessief is. Vervolgens noteer je de genotypen van de recessieve individuen en leid je de genotypen van de rest af."
+            },
+            {
+              "id": 160,
+              "type": "multiple_choice",
+              "vraag": "Je weet niet of iemand AA of Aa is. Hoe noteer je het genotype in de stamboom?",
+              "opties": [
+                "A?",
+                "AA",
+                "Aa",
+                "a?"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Als je niet zeker weet of iemand homozygoot dominant (AA) of heterozygoot (Aa) is, noteer je het genotype als A?. Het vraagteken geeft aan dat het tweede allel onbekend is — het kan A of a zijn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 12,
+      "leerdoel_titel": "Mutaties en evolutie",
+      "paragraaf": "§12.5",
+      "uitleg_tekst": "Een mutatie is een verandering van de genetische code door een fout bij de DNA-verdubbeling. Mutaties kunnen tumoren veroorzaken (goedaardig of kwaadaardig/kanker). Mutaties in geslachtscellen worden doorgegeven aan nakomelingen. Soms zijn mutaties gunstig en maken ze evolutie mogelijk.",
+      "subdoelen": [
+        {
+          "subdoel_id": "12.1",
+          "subdoel_titel": "DNA-verdubbeling en mutaties",
+          "uitleg_tekst": "Bij de DNA-verdubbeling splitst het DNA open en worden nieuwe basen gekoppeld aan de oude. Soms gaat dit fout: er wordt een verkeerde base gekoppeld of een base overgeslagen. Zo'n verandering van de genetische code is een mutatie.",
+          "vragen": [
+            {
+              "id": 161,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Welke stap toont het resultaat van de DNA-verdubbeling?",
+              "opties": [
+                "A — het complete DNA voor verdubbeling",
+                "B — het DNA dat als een ritssluiting opengaat",
+                "C — er zijn twee nieuwe DNA-moleculen ontstaan",
+                "Geen van deze stappen toont de verdubbeling"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Stap A toont het oorspronkelijke DNA. Bij stap B splitst het DNA open. Bij stap C zijn er twee nieuwe identieke DNA-moleculen ontstaan, elk met de oude helft en een nieuwe helft. Stap C toont dus het resultaat.",
+              "afbeelding": "images/h12/12.5_fig1.jpeg"
+            },
+            {
+              "id": 162,
+              "type": "invullen",
+              "vraag": "Een verandering van de genetische code door een veranderd DNA-molecuul noem je een ...",
+              "juiste_antwoord": "mutatie",
+              "uitleg": "Een mutatie is een verandering van de genetische code. Dit kan ontstaan door een fout bij de DNA-verdubbeling (verkeerde base gekoppeld, base overgeslagen) of doordat stukken DNA afbreken en verkeerd weer vastzitten."
+            },
+            {
+              "id": 163,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wat is er aan de hand bij sikkelcelziekte?",
+              "opties": [
+                "Het DNA in de rode bloedcellen is volledig verdwenen door een grote mutatie",
+                "De rode bloedcellen bevatten te veel zuurstof door een overactief gen",
+                "Er is een extra chromosoom aanwezig in alle cellen van het lichaam",
+                "Door een mutatie van één DNA-base zijn de rode bloedcellen sikkelvormig"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij sikkelcelziekte is door een mutatie van slechts één DNA-base de genetische code veranderd. Daardoor zijn de rode bloedcellen sikkelvormig in plaats van rond, waardoor ze minder zuurstof kunnen binden.",
+              "afbeelding": "images/h12/12.5_fig2.jpeg"
+            },
+            {
+              "id": 164,
+              "type": "invullen",
+              "vraag": "Alle DNA-moleculen samen bevatten de ... van het organisme.",
+              "juiste_antwoord": "genetische code",
+              "uitleg": "De genetische code is de volledige informatie vastgelegd in de basenvolgorde van alle DNA-moleculen. Een mutatie verandert de genetische code, wat kan leiden tot veranderde eigenschappen."
+            },
+            {
+              "id": 165,
+              "type": "multiple_choice",
+              "vraag": "Bij de DNA-verdubbeling gaat er gemiddeld iets fout bij minder dan 1 op de ...",
+              "opties": [
+                "100 DNA-basen",
+                "1.000 DNA-basen",
+                "1.000.000 DNA-basen",
+                "1.000.000.000 DNA-basen"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij minder dan 1 op de 1 miljard DNA-basen gaat er gemiddeld iets fout. Veel foutjes worden meteen gerepareerd. Uiteindelijk vinden er maar weinig blijvende mutaties plaats."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "12.2",
+          "subdoel_titel": "Tumoren en kanker",
+          "uitleg_tekst": "Een tumor is een groep cellen die ontstaat door ongecontroleerde celdelingen. Goedaardige tumoren (zoals wratten) groeien niet door andere weefsels. Kwaadaardige tumoren (kanker) groeien wel door weefsels heen en kunnen uitzaaien via bloed- en lymfevaten.",
+          "vragen": [
+            {
+              "id": 166,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de afbeelding. Wat maakt een kwaadaardige tumor anders dan een goedaardige?",
+              "opties": [
+                "Een goedaardige tumor groeit sneller dan een kwaadaardige",
+                "Een kwaadaardige tumor is altijd kleiner dan een goedaardige",
+                "Een kwaadaardige tumor groeit door weefsels heen en kan uitzaaien",
+                "Een kwaadaardige tumor ontstaat alleen in de huid door zonnestraling"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een kwaadaardige tumor (kanker) groeit door naburige weefsels en organen heen. Bovendien kunnen kwaadaardige tumoren uitzaaien: tumorcellen verspreiden zich via bloed- en lymfevaten. Een goedaardige tumor doet dit niet.",
+              "afbeelding": "images/h12/12.5_fig3.jpeg"
+            },
+            {
+              "id": 167,
+              "type": "invullen",
+              "vraag": "Een groep cellen die ontstaat door ongecontroleerde celdelingen noem je een ... ofwel gezwel.",
+              "juiste_antwoord": "tumor",
+              "uitleg": "Een tumor (of gezwel) is een groep cellen die ontstaat doordat cellen ongecontroleerd blijven delen. Een tumor kan goedaardig (bijv. een wrat) of kwaadaardig (kanker) zijn."
+            },
+            {
+              "id": 168,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende zijn risicofactoren voor kanker?",
+              "opties": [
+                "Roken",
+                "Veel water drinken",
+                "Veel zonnestraling",
+                "Te weinig lichaamsbeweging",
+                "Radioactieve straling"
+              ],
+              "juiste_antwoorden": [0, 2, 3, 4],
+              "uitleg": "Risicofactoren voor kanker zijn onder andere: leeftijd, erfelijke aanleg, roken, ongezond eten, veel alcohol, veel zonnestraling, radioactieve straling en te weinig lichaamsbeweging. Veel water drinken is geen risicofactor."
+            },
+            {
+              "id": 169,
+              "type": "multiple_choice",
+              "vraag": "Wat betekent het als een kwaadaardig gezwel 'uitzaait'?",
+              "opties": [
+                "Het immuunsysteem vernietigt de tumorcellen en verspreidt de resten",
+                "De tumor verandert van kwaadaardig naar goedaardig door medicijnen",
+                "De tumor wordt kleiner doordat de cellen spontaan afsterven",
+                "Tumorcellen verspreiden zich via bloed- en lymfevaten naar andere plaatsen"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij uitzaaiing verspreiden tumorcellen zich via de bloed- en lymfevaten naar andere plaatsen in het lichaam. Daar gaan ze verder groeien en andere organen aantasten."
+            },
+            {
+              "id": 170,
+              "type": "multiple_choice",
+              "vraag": "Wat is de belangrijkste risicofactor voor kanker?",
+              "opties": [
+                "Leeftijd",
+                "Erfelijke aanleg",
+                "Roken",
+                "Zonnestraling"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De belangrijkste risicofactor voor kanker is leeftijd. Hoe ouder iemand wordt, des te meer kans op kanker. Dat komt doordat er bij elke celdeling een kleine kans op mutaties is — hoe meer celdelingen in een leven, hoe groter de kans op een fout."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "12.3",
+          "subdoel_titel": "Mutaties in geslachtscellen en evolutie",
+          "uitleg_tekst": "Mutaties in geslachtscellen worden doorgegeven aan alle cellen van de nakomeling. Dit kan aangeboren afwijkingen veroorzaken. Soms zorgen mutaties voor gunstige eigenschappen, waardoor evolutie mogelijk wordt. Een voorbeeld is lactose-tolerantie.",
+          "vragen": [
+            {
+              "id": 171,
+              "type": "multiple_choice",
+              "vraag": "Wat is het verschil tussen een mutatie in een huidcel en een mutatie in een geslachtscel?",
+              "opties": [
+                "Een mutatie in een huidcel kan uitzaaien naar andere organen, een mutatie in een geslachtscel niet",
+                "Er is geen verschil: beide mutaties worden altijd doorgegeven aan kinderen",
+                "Een mutatie in een geslachtscel kan aan nakomelingen worden doorgegeven, in een huidcel niet",
+                "Een mutatie in een huidcel is altijd ernstiger dan een mutatie in een geslachtscel"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een mutatie in een geslachtscel (zaadcel of eicel) wordt doorgegeven aan de nakomeling en zit dan in élke cel van dat nieuwe organisme. Een mutatie in een lichaamcel (zoals een huidcel) wordt niet doorgegeven aan kinderen."
+            },
+            {
+              "id": 172,
+              "type": "multiple_choice",
+              "vraag": "Bekijk de kaart. In welke werelddelen hebben de meeste volwassenen lactose-intolerantie?",
+              "opties": [
+                "Europa en Noord-Amerika",
+                "Australië en West-Europa",
+                "Centraal Afrika, Zuid-Amerika en Zuidoost-Azië",
+                "Noord-Amerika en Scandinavië"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "In Centraal Afrika, Zuid-Amerika en Zuidoost-Azië hebben veel meer mensen lactose-intolerantie. In Europa, Australië en Noord-Amerika — waar al duizenden jaren melk van vee gedronken wordt — kunnen de meeste mensen lactose goed verteren.",
+              "afbeelding": "images/h12/12.5_fig4.jpeg"
+            },
+            {
+              "id": 173,
+              "type": "multiple_choice",
+              "vraag": "Hoe maken mutaties evolutie mogelijk?",
+              "opties": [
+                "Door alle schadelijke allelen uit de populatie te verwijderen via natuurlijke selectie",
+                "Door de genetische code bij alle organismen precies hetzelfde te houden",
+                "Door ervoor te zorgen dat alle organismen precies dezelfde eigenschappen krijgen",
+                "Door soms gunstige eigenschappen te veroorzaken die vaker worden doorgegeven"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Soms zorgt een mutatie voor een eigenschap waar het organisme voordeel van heeft. Dat organisme leeft langer en krijgt meer nakomelingen, waardoor de gunstige eigenschap vaker voorkomt. Zo maken mutaties evolutie mogelijk."
+            },
+            {
+              "id": 174,
+              "type": "invullen",
+              "vraag": "Het verschijnsel dat soorten over lange tijd veranderen doordat gunstige mutaties vaker worden doorgegeven, heet ...",
+              "juiste_antwoord": "evolutie",
+              "uitleg": "Evolutie is het proces waarbij soorten over lange tijd veranderen. Mutaties zorgen voor nieuwe eigenschappen. Als een eigenschap voordelig is, wordt die vaker doorgegeven aan nakomelingen."
+            },
+            {
+              "id": 175,
+              "type": "multiple_choice",
+              "vraag": "Waarom kunnen de meeste Europeanen wel melk verteren, maar veel mensen in Azië niet?",
+              "opties": [
+                "Europese melk bevat minder lactose dan Aziatische melk van nature",
+                "Europeanen eten meer zuivelproducten, waardoor de maag sterker wordt",
+                "In Europa bleef door een gunstige mutatie het gen voor lactose-vertering actief",
+                "Aziaten hebben een ander soort DNA dat fundamenteel niet geschikt is voor melk"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Door een mutatie bleef bij sommige mensen het gen voor lactose-vertering actief. In gebieden waar duizenden jaren vee gehouden werd (Europa), was dit een voordeel — die mensen waren gezonder en kregen meer nakomelingen. Dit is evolutie in actie."
+            },
+            {
+              "id": 176,
+              "type": "invullen",
+              "vraag": "Als iemand melksuiker niet goed kan verteren en daar klachten van krijgt, heeft die persoon een ...",
+              "juiste_antwoord": "lactose-intolerantie",
+              "uitleg": "Lactose-intolerantie is het niet kunnen verteren van lactose (melksuiker). Dit leidt tot klachten als een opgeblazen gevoel en diarree. Pasgeboren kinderen kunnen lactose wel verteren, maar bij veel mensen verdwijnt die eigenschap rond driejarige leeftijd."
+            },
+            {
+              "id": 177,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke van de volgende aandoeningen zijn erfelijk?",
+              "opties": [
+                "Kleurenblindheid",
+                "Een gebroken been",
+                "Taaislijmziekte",
+                "Sikkelcelziekte",
+                "Een zonnesteek"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Kleurenblindheid, taaislijmziekte en sikkelcelziekte zijn erfelijke aandoeningen: ze worden veroorzaakt door mutaties die via geslachtscellen van ouder op kind zijn doorgegeven. Een gebroken been en een zonnesteek zijn niet erfelijk."
+            },
+            {
+              "id": 178,
+              "type": "multiple_choice",
+              "vraag": "Na een kernenergiemramp worden meer baby's met aangeboren afwijkingen geboren. Waarom?",
+              "opties": [
+                "Radioactieve straling veroorzaakt mutaties in de geslachtscellen van de ouders",
+                "De baby's worden blootgesteld aan straling tijdens de geboorte in het ziekenhuis",
+                "Kernenergie vernietigt het immuunsysteem van de baby tijdens de zwangerschap",
+                "Radioactieve stoffen veranderen de samenstelling van het voedsel van de moeder"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Radioactieve straling veroorzaakt mutaties in het DNA van geslachtscellen. Als een eicel of zaadcel met gemuteerd DNA bij de bevruchting betrokken is, zit die mutatie in élke cel van het kind. Dit kan leiden tot aangeboren afwijkingen."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

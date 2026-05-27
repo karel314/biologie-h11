@@ -1,7 +1,7 @@
 {
-  "name": "Biologie H11 - Quiz",
-  "short_name": "Bio H11",
-  "description": "Quiz app voor Biologie H11 - Seksualiteit",
+  "name": "Biologie H11 & H12 - Quiz",
+  "short_name": "Bio H11-12",
+  "description": "Quiz app voor Biologie H11 (Seksualiteit) en H12 (Erfelijkheid & DNA)",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f0fdf4",
